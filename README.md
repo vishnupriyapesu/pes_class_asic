@@ -277,6 +277,25 @@ The ABI is crucial for enabling interoperability between different software comp
 
 1.**Little-Endian**: In little-endian representation, you store the least significant byte (LSB) at the lowest memory address and the most significant byte (MSB) at the highest memory address.
 
+2.**Big-Endian**: In big-en
+dian representation, you store the most significant byte (MSB) at the lowest memory address and the least significant byte (LSB) at the highest memory address.
+
+
+**For example, consider the 64-bit hexadecimal value 0x0123456789ABCDEF.**
+In Little-Endian representation, it would be stored as follows in memory:
+
+
+![Screenshot from 2023-08-21 23-27-22](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f72a3ffd-d146-4032-9edd-6e43fb67a62f)
+
+In Big-Endian representation, it would be stored as follows in memory:
+![Screenshot from 2023-08-21 23-28-40](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f1f3dcf2-7767-4213-b8e3-6828c3171724)
+
+
+
+
+
+
+
 
 
 
