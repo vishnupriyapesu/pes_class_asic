@@ -306,6 +306,7 @@ In this Example
     
     x6 is the destination register.
 
+
     
     8(x5) is the memory address pointed to by register x5 (base address + offset).
 
@@ -320,18 +321,73 @@ In this Example
 
     
     x8 is the source register.
-
-    
     8(x9) is the memory address pointed to by register x9 (base address + offset).
 
 
 
 
 
+3.**Add Instructions**: Add instructions are used to perform addition operations on registers. They add the values of two source registers and store the result in a destination register.
+
+Example add x9, x10, x11
+
+In this Example
+
+add is the add instruction.
+
+x9 is the destination register
+
+x10 and x11 are the source registers
+
+
+**32-Registers and their ABI Names**
+
+The choice of the number of registers in a processor's architecture, such as the RISC-V RV64 architecture with its 32 general-purpose registers, involves a trade-off between various factors. While modern processors can have more registers but increasing the number of registers could lead to larger instructions, which would take up more memory and potentially slow down instruction fetch and decode.
+
+**ABI Names**
+
+ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components.
+
+
+![Screenshot from 2023-08-21 23-36-17](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/387ba4f6-d71a-404c-9665-9c011dd69a27)
+
+**Labwork using ABI Function Calls**
+
+**Algorithm for C Program using ASM**
+
+Incorporating assembly language code into a C program can be done using inline assembly or by linking separate assembly files with your C code.
+
+When you call an assembly function from your C code, the C calling convention is followed, including pushing arguments onto the stack or passing them in registers as required.
+
+The program executes the assembly function, following the assembly instructions you've provided.
 
 
 
+**Review ASM Function Calls**
 
+We wrote C code in one file and your assembly code in a separate file.
+
+In the assembly file, we declared assembly functions with appropriate signatures that match the calling conventions of your platform.
+
+
+**C Program** custom1to9.c
+
+
+![Screenshot from 2023-08-21 23-39-28](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2dee77a1-ab06-4a65-8004-21a4470cd62b)
+
+
+**Asseembly File** load.s
+
+
+
+![Screenshot from 2023-08-21 23-41-15](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/bf0538ef-136a-490e-b1b2-0af77ff21765)
+
+
+**simulate C Program using Function Call**
+
+**Compilation**: To compile C code and Asseembly file use the command
+
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum13.o sum13.c load.s
 
 
 
