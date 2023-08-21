@@ -73,8 +73,8 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
     >> RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions.
 
 
+![Screenshot from 2023-08-22 00-06-14](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e0c591c3-668d-42ca-b368-a45f4fbc4a49)
 
-![Uploading image.png…]()
 
 
 **From Apps to Hardware**
