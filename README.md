@@ -161,6 +161,16 @@ Here, since we used -O1 optimisation, the number of instructions are 15.
 
 
 
+![Screenshot from 2023-08-21 19-26-32](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e89cd311-404f-45fd-9af1-3eadbf64c7dd)
+
+
+
+When we use -Ofast optimisation, we can see that the number of instructions have been reduced to 12
+
+
+
+
+
 
 
 
