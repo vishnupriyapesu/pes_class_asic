@@ -157,6 +157,10 @@ In order to view the main section, type /main.
 Here, since we used -O1 optimisation, the number of instructions are 15.
 
 
+![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/b1ab79f0-9677-43e2-811d-0eba9d156aa6)
+
+
+
 
 
 
