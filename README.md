@@ -269,6 +269,8 @@ In Little-Endian representation, it would be stored as follows in memory:
 ![Screenshot from 2023-08-21 23-27-22](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f72a3ffd-d146-4032-9edd-6e43fb67a62f)
 
 In Big-Endian representation, it would be stored as follows in memory:
+
+
 ![Screenshot from 2023-08-21 23-28-40](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f1f3dcf2-7767-4213-b8e3-6828c3171724)
 
 **Load, Add and Store Instructions**
