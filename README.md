@@ -131,3 +131,32 @@ int main(){
 	printf("Sum of numbers from 1 to %d is %d \n",n,sum);
 	return 0;
 }
+
+
+![Screenshot from 2023-08-21 19-16-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ffc81637-f8e9-494c-ac0e-169d673ab8c4)
+
+
+![Screenshot from 2023-08-21 19-17-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/17e9a727-b2f8-4239-bf47-dd0efd96e344)
+
+
+**RISCV GCC Compiler and Dissemble**
+
+
+Using the riscv gcc compiler, we compiled the C program.
+
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+
+Using ls -ltr sum1ton.c, we can check that the object file is created.
+
+To get the dissembled ALP code for the C program,
+
+riscv64-unknown-elf-objdump -d sum1ton.o | less .
+
+In order to view the main section, type /main.
+
+Here, since we used -O1 optimisation, the number of instructions are 15.
+
+
+
+
+
