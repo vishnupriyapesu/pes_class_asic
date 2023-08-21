@@ -397,8 +397,6 @@ chmod 777 rv32im.sh
 ./rv32im.sh
 
 
-
-
 ![Screenshot from 2023-08-21 23-21-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2260fa3a-5f00-4f29-8ce8-5919058b36aa)
 
 
