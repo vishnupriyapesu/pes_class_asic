@@ -132,13 +132,13 @@ We wrote a C program for calculating the sum from 1 to n using a text editor
 
 > Using the riscv gcc compiler, we compiled the C program.
 
-> riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+> riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum11.o sum11.c
 
 > Using ls -ltr sum1ton.c, we can check that the object file is created.
 
 > To get the dissembled ALP code for the C program,
 
-> riscv64-unknown-elf-objdump -d sum1ton.o | less .
+> riscv64-unknown-elf-objdump -d sum11.o | less .
 
 > In order to view the main section, type /main
 
@@ -176,7 +176,7 @@ For different instances,
 
    ** Spike Simulation and Debug**
 
-spike pk sum1ton.o is used to check whether the instructions produced are right to give the correct output.
+spike pk sum11.o is used to check whether the instructions produced are right to give the correct output.
 
    
 
@@ -396,8 +396,8 @@ chmod 777 rv32im.sh
 
 ./rv32im.sh
 
+![Screenshot from 2023-08-21 23-21-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c22fae02-4d33-4445-9828-56dccdce3236)
 
-![Screenshot from 2023-08-21 23-21-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2260fa3a-5f00-4f29-8ce8-5919058b36aa)
 
 
 
