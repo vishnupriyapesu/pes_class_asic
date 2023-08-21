@@ -290,6 +290,41 @@ In Little-Endian representation, it would be stored as follows in memory:
 In Big-Endian representation, it would be stored as follows in memory:
 ![Screenshot from 2023-08-21 23-28-40](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f1f3dcf2-7767-4213-b8e3-6828c3171724)
 
+**Load, Add and Store Instructions**
+
+Load, Add, and Store instructions are fundamental operations in computer architecture and assembly programming. They are often used to manipulate data within a computer's memory and registers.
+
+1.**Load Instructions**: Load instructions are used to transfer data from memory to registers. They allow you to fetch data from a specified memory address and place it into a register for further processing.
+
+Example ld x6, 8(x5)
+
+In this Example
+
+
+    ld is the load double-word instruction.
+
+    
+    x6 is the destination register.
+
+    
+    8(x5) is the memory address pointed to by register x5 (base address + offset).
+
+2.**Store Instructions**: Store instructions are used to write data from registers into memory.They store values from registers into memory addresses
+
+Example sd x8, 8(x9)
+
+
+In this Example
+
+    sd is the store double-word instruction.
+
+    
+    x8 is the source register.
+
+    
+    8(x9) is the memory address pointed to by register x9 (base address + offset).
+
+
 
 
 
