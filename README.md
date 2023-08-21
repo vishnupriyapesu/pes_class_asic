@@ -390,7 +390,35 @@ In the assembly file, we declared assembly functions with appropriate signatures
 riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum13.o sum13.c load.s
 
 
+this would generate object file sum13.o
 
+**Execution**: To execute the object file run the command
+
+spike pk sum13.o
+
+
+![Screenshot from 2023-08-21 23-17-12](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/129488fb-9b4b-4d0f-94e4-add27f4e2049)
+
+**Lab to Run C-Program on RISCV-CPU**
+
+git clone https://github.com/kunalg123/riscv_workshop_collaterals.git
+
+cd riscv_workshop_collaterals
+
+ls -ltr
+
+cd labs
+
+ls -ltr
+
+chmod 777 rv32im.sh
+
+./rv32im.sh
+
+
+
+
+![Screenshot from 2023-08-21 23-21-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2260fa3a-5f00-4f29-8ce8-5919058b36aa)
 
 
 
