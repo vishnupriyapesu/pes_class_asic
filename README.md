@@ -148,30 +148,28 @@ When we use -Ofast optimisation, we can see that the number of instructions have
 
 ![Screenshot from 2023-08-21 19-26-32](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e89cd311-404f-45fd-9af1-3eadbf64c7dd)
 
+> onumber : level of optimisation required
 
-
-
-    -Onumber : level of optimisation required
-    -mabi : specifies the ABI (Application Binary Interface) to be used during code generation according to the requirements
-    -march : specifies target architecture
+> mabi : specifies the ABI (Application Binary Interface) to be used during code generation according to the requirements
+> march : specifies target architecture
 
 In order to view the different options available for these fields, use the following commands
 
 go to the directory where riscv64-unkonwn-elf is present
 
-    -O1 :  riscv64-unkonwn-elf --help=optimizer
-    -mabi : riscv64-unknown-elf-gcc --target-help
-    -march : riscv64-unknown-elf-gcc --target-help
+> O1 :  riscv64-unkonwn-elf --help=optimizer
+> mabi : riscv64-unknown-elf-gcc --target-help
+>  march : riscv64-unknown-elf-gcc --target-help
 
 For different instances,
 
-    use the command riscv64-unknown-elf-objdump -d 1_to_N.o | less
-    use  /instance to search for an instance
-    press ENTER
-    press n to search next occurance
-    press N to search for p!
-revious occurance.
-    use esc :q to quit
+    > use the command riscv64-unknown-elf-objdump -d 1_to_N.o | less
+    > use  /instance to search for an instance
+    > press ENTER
+    > press n to search next occurance
+    > press N to search for p!
+    > revious occurance.
+    > use esc :q to quit
 
 
 
