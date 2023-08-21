@@ -157,7 +157,6 @@ In order to view the main section, type /main.
 Here, since we used -O1 optimisation, the number of instructions are 15.
 
 
-![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/b1ab79f0-9677-43e2-811d-0eba9d156aa6)
 
 
 
@@ -188,8 +187,17 @@ For different instances,
     use  /instance to search for an instance
     press ENTER
     press n to search next occurance
-    press N to search for previous occurance.
+    press N to search for p!
+revious occurance.
     use esc :q to quit
+
+
+
+   ** Spike Simulation and Debug**
+
+
+   
+![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7affce9d-f4e8-417e-ab68-baed0ff87564)
 
 
 
