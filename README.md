@@ -197,8 +197,16 @@ revious occurance.
 
 spike pk sum1ton.o is used to check whether the instructions produced are right to give the correct output.
 
-   
+   ![Screenshot from 2023-08-21 19-39-00](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e9195717-1ad1-4fed-9737-60668eb0edab)
+
 ![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7affce9d-f4e8-417e-ab68-baed0ff87564)
+
+
+
+
+The contents of the registers can also be viewed.
+
+
 
 
 
