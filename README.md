@@ -249,10 +249,7 @@ We wrote a C program that shows the maximum and minimum values of 64bit unsigned
 
 
 
-
-
-
-![Screenshot from 2023-08-21 19-46-25](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1567585f-84ff-4353-a571-bc14cdc376a8)
+![Screenshot from 2023-08-21 19-49-06](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/73976c67-087d-4d6b-84ac-7fb9e5cdf155)
 
 
 
