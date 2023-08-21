@@ -8,37 +8,35 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 
 **SKILL OUTCOMES**
 
+> Architectural Design
+
+> RTL Design / Behavioral Modeling
+    
+> Floorplanning
+    
+> placement
+    
+> clock Tree Synthesis
+
+> Routing
 
 
-    Architectural Design
-    
-    RTL Design / Behavioral Modeling
-    
-    Floorplanning
-    
-    placement
-    
-    clock Tree Synthesis
-    
-    Routing
-
-
-   ** INSTALLATION**
+   **INSTALLATION**
 
 
    https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 
 
    
-    Download the run.sh
+> Download the run.sh
     
-    Open terminal
+> Open terminal
     
-    cd Downloads
+> cd Downloads
     
-    ./run.sh
+> ./run.sh
 
-    **TABLE OF CONTENTS**
+**TABLE OF CONTENTS**
 
 **DAY 1**
 
@@ -58,8 +56,8 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 
 
 
-    ISA defines the interface between a computer's hardware and its software, specifically how the processor and its components interact with the software instructions that drive the execution of tasks.
-    It encompasses a set of instructions, addressing modes, data types, registers, memory organization, and the mechanisms for executing and managing instructions.
+   >>  ISA defines the interface between a computer's hardware and its software, specifically how the processor and its components interact with the software instructions that drive the execution of tasks.
+    >> It encompasses a set of instructions, addressing modes, data types, registers, memory organization, and the mechanisms for executing and managing instructions.
 
 
 
@@ -68,8 +66,10 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 
 
 
-    It is an open-source Instruction Set Architecture (ISA) that has gained significant attention and adoption in the world of computer architecture and semiconductor design.
-    RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions.
+    >> It is an open-source Instruction Set Architecture (ISA) that has gained significant attention and adoption in the world of computer architecture and semiconductor design.
+
+    
+    >> RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions.
 
 
 
@@ -107,17 +107,16 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 
 **Application Binary Interface**: ABI stands for "Application Binary Interface." It is a set of rules and conventions that govern how software components interact with each other at the binary level. The ABI defines various aspects of program execution, including how function calls are made, how parameters are passed and returned, how memory is allocated and managed, and more.
 
-**Memory Allocation and Stack Pointer**
+**Memory Allocation and Stack Pointer**: Memory allocation refers to the process of assigning and managing memory segments for various data structures, variables, and objects used by a program. It involves allocating memory space from the system's memory pool and releasing it when it is no longer needed to prevent memory leaks.
 
-    Memory allocation refers to the process of assigning and managing memory segments for various data structures, variables, and objects used by a program. It involves allocating memory space from the system's memory pool and releasing it when it is no longer needed to prevent memory leaks.
-    The stack pointer is a register used by a program to keep track of the current position of the program's execution on the call stack.
-
+The stack pointer is a register used by a program to keep track of the current position of the program's execution on the call stack.
 
 
 
-  **  Labwork for RISCV Toolchain**
 
-**  C Program**
+**Labwork for RISCV Toolchain**
+
+**C Program**
 
 We wrote a C program for calculating the sum from 1 to n using a text editor
 
