@@ -197,7 +197,7 @@ revious occurance.
 
 spike pk sum1ton.o is used to check whether the instructions produced are right to give the correct output.
 
-   ![Screenshot from 2023-08-21 19-39-00](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e9195717-1ad1-4fed-9737-60668eb0edab)
+   
 
 ![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7affce9d-f4e8-417e-ab68-baed0ff87564)
 
@@ -211,8 +211,46 @@ The contents of the registers can also be viewed.
 
 
 
+![Screenshot from 2023-08-21 19-39-00](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/71d6f365-57d6-45aa-9583-d5b8f8f75bab)
+
+
+
+    press ENTER : to show the first line and successive ENTER to show successive lines
+
+    
+    reg 0 a2 : to check content of register a2 0th core
+
+    
+    q : to quit the debug process
+
+
+**Integer Number Representation**
+
+**Unsigned Numbers**
+
+
+    Unsigned numbers, also known as non-negative numbers, are numerical values that represent magnitudes without indicating direction or sign.
+    Range: [0, (2^n)-1 ]
+
+
+**Signed Numbers**
+
+
+    Signed numbers are numerical values that can represent both positive and negative magnitudes, along with zero.
+    Range : Positive : [0 , 2^(n-1)-1] Negative : [-1 to 2^(n-1)]
+
+
+**Labwork**
+
+
+We wrote a C program that shows the maximum and minimum values of 64bit unsigned numbers.
 
 
 
 
+
+
+
+
+![Screenshot from 2023-08-21 19-46-25](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1567585f-84ff-4353-a571-bc14cdc376a8)
 
