@@ -141,21 +141,21 @@ We wrote a C program for calculating the sum from 1 to n using a text editor
 > riscv64-unknown-elf-objdump -d sum11.o | less .
 
 > In order to view the main section, type /main
-> 
+
+
 When we use -O1 optimisation, we can see that the number of instructions have been reduced to 12
 
 
+![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/017f42ec-9988-4e57-8e84-d959c502e323)
 
 
 
-assembly :
+assembly for O1 optimisation:
 
 ![Screenshot from 2023-08-22 13-03-05](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/029cdcbc-da59-4b5e-ad39-f477f2937e5f)
 
 
 When we use -Ofast optimisation, we can see that the number of instructions have been reduced to 12
-![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/017f42ec-9988-4e57-8e84-d959c502e323)
-
 
 
 ![Screenshot from 2023-08-21 19-26-32](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e89cd311-404f-45fd-9af1-3eadbf64c7dd)
