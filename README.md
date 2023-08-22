@@ -164,6 +164,7 @@ When we use -Ofast optimisation, we can see that the number of instructions have
 
 > mabi : specifies the ABI (Application Binary Interface) to be used during code generation according to the requirements
 > march : specifies target architecture
+> 
 
 In order to view the different options available for these fields, use the following commands
 
