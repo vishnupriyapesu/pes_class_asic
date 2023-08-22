@@ -146,7 +146,7 @@ When we use -O1 optimisation, we can see that the number of instructions have be
 
 
 
-![Screenshot from 2023-08-21 19-26-20](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/9aba2141-ff14-4419-ab51-564249fb5667)
+
 
 assembly :
 
@@ -154,6 +154,7 @@ assembly :
 
 
 When we use -Ofast optimisation, we can see that the number of instructions have been reduced to 12
+![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/017f42ec-9988-4e57-8e84-d959c502e323)
 
 
 
