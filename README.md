@@ -694,8 +694,13 @@ The command to generate the netlist file based on the .lib file mentioned
 
 ![Screenshot from 2023-08-27 17-25-47](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f65d5bda-8c7c-4963-b96a-7f4e5b5fedb4)
 
+>  show command is used to see the synthesised output/nrtlist
 
 
+
+
+
+![Screenshot from 2023-08-27 17-28-09](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/929e81de-2681-413a-bfc5-f3de2f62ad44)
 
 
 
