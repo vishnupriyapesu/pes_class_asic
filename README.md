@@ -416,6 +416,54 @@ chmod 777 rv32im.sh
 ![Screenshot from 2023-08-22 00-09-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a5778924-b954-4f9e-bee3-de0caf3a20ac
 
 
+This github repository summarizes the progress made in the ASIC class. Quick links:
+
+- [Day-0-Installation](#day-0-Installation)
+
+- [Day-1-Introduction to Verilog RTL design and Synthesis](#Day-1--Introduction-to-Verilog-RTL-design-and-Synthesis)
+
+- [Day-2-Timing libs,hierarchical,flat synthesis,efficient flop coding styles](#Day-2-Timing-libs-hierarchical-flat-synthesis-efficient-flop-coding-styles)
+
+- [Day-3-Combinational and sequential optmizations](#day-3-Combinational-and-sequential-optmizations)
+
+- [Day-4-GLS, blocking vs non-blocking and Synthesis-Simulation mismatch](#5-DAY4--GLS-blocking-vs-non-blocking-and-Synthesis-Simulation-mismatch)
+
+- [Day-5-if, case, for loop and for generate](#6-Day-5-if-case-for-loop-and-for-generate)
+
+- [Word of Thanks](#Word-of-Thanks)
+
+- [Reference](#reference)
+
+
+## Day-0-Installation
+<details>
+ <summary> Summary </summary>
+	
+I installed the needed tools.
+
+</details>	
+	
+ <details>
+ <summary> Yosys </summary>
+I installed Yosys using the following commands:
+     
+```
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys-master 
+$ sudo apt install make 
+$ sudo apt-get install build-essential clang bison flex \
+    libreadline-dev gawk tcl-dev libffi-dev git \
+    graphviz xdot pkg-config python3 libboost-system-dev \
+    libboost-python-dev libboost-filesystem-dev zlib1g-dev
+$ make 
+$ sudo make install
+```
+     
+Below is the screenshot showing sucessful launch:
+
+![Screenshot from 2023-08-27 12-53-36](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5c3149ca-f742-4ace-8482-ed3054d3e8e1)
+
+
 
 
 
