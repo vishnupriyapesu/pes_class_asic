@@ -736,6 +736,16 @@ and then, use command:
 
 
 
+</details>
+
+# Day-2-Timing libs, hierarchical, flat synthesis, efficient flop coding styles
+<details>
+<summary>Introduction to timing .libs</summary>
+
+### LAB- Introduction to dot Lib
+
+
+
 
 
 
