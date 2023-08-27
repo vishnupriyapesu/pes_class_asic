@@ -675,6 +675,11 @@ Below is an illustration of Synthesis.
 ![Screenshot from 2023-08-27 16-37-36](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1e04c520-eb47-4323-8068-f080250b1f6d)
 
 
+>  read_verilog good_mux.v // This will read the desgn verilog file
+
+
+
+![Screenshot from 2023-08-27 16-42-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/767f9f65-c56b-4734-b646-0d8855c9022b)
 
 
 
