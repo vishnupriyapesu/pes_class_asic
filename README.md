@@ -715,7 +715,26 @@ the command to write the netlist :
 
 
 
+
 ![Screenshot from 2023-08-27 17-39-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/33304357-08c0-4b7b-9e30-68e75e62e119)
+
+
+the command or switch to use ,to get netlist in simple way
+>  write_verilog -noattr good_mux_netlist.v
+
+and then, use command:
+
+>  !gvim good_mux_netlist.v
+
+
+
+![Screenshot from 2023-08-27 17-47-14](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a8d215e9-d5e1-4506-abd6-73712f444810)
+
+
+
+![Screenshot from 2023-08-27 17-46-44](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ebfb8c29-ae5f-401d-bfe6-f4e33bca1cb0)
+
+
 
 
 
