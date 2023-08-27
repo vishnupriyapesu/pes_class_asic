@@ -554,6 +554,24 @@ good_mux.v and tb_good_mux.v are already present in verilog_files.
 
 
 
+**for extracting the file structure use command:**
+gvim tb_good_mux.v -o good_mux.v
+
+
+![Screenshot from 2023-08-27 14-57-10](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/b4fb4392-355b-43cf-9bfe-5d38da79bb1c)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
