@@ -546,8 +546,6 @@ commands used to execute the gtkwave :
 
 > ./a.out
 
-
-
 > gtkwave tb_good_mux.vcd
 
 
