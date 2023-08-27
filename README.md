@@ -561,6 +561,28 @@ gvim tb_good_mux.v -o good_mux.v
 ![Screenshot from 2023-08-27 14-57-10](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/b4fb4392-355b-43cf-9bfe-5d38da79bb1c)
 
 
+</details>
+
+<details>
+ <summary> Introduction to Yosys synthesizer </summary>
+
+**synthesizer**: tool used for converting thr RTL to netlist
+here we are using synthesizer called **yosys**
+
+**netlist**: representation of design in the form of standard cells present in **.lib**
+
+**.lib**contains standard cells to implement any boolean logic functionality.in other words we can say :
+>  collection of logical modules
+
+
+> includes basic logic gates like And ,or , not, etc
+
+
+**flow:**
+
+![Untitled2](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/6c4bdc5c-ee7f-4653-a1fb-83da5431cb51)
+
+
 
 
 
