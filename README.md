@@ -497,7 +497,6 @@ sudo apt-get install gtkwave
 
 Below is the screenshot showing sucessful launch:
 
-
 ![Screenshot from 2023-08-27 13-02-36](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1384eb0f-2eab-438d-8287-7397311e46af)
 
 
