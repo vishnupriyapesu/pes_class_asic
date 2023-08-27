@@ -578,6 +578,12 @@ here we are using synthesizer called **yosys**
 > includes basic logic gates like And ,or , not, etc
 
 
+![Untitled4](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/d1a91244-eb61-4d22-acff-aedd5f6197a5)
+
+
+
+
+
 **flow:**
 
 ![Untitled2](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/6c4bdc5c-ee7f-4653-a1fb-83da5431cb51)
