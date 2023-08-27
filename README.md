@@ -521,9 +521,9 @@ here as per our requirement,we are using iverilog as simulator.
 > up on the changes to the input ,the output is evaluated.
 
 here is the representation:
-blob:https://web.whatsapp.com/3a01ba29-3f56-49ba-8d1f-9db9a6814959
 
 
+![Untitled](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/3598724c-3d53-48dd-a561-536312f3b7ca)
 
 
 
