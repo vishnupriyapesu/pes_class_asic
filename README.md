@@ -681,13 +681,18 @@ Below is an illustration of Synthesis.
 
 ![Screenshot from 2023-08-27 16-42-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/767f9f65-c56b-4734-b646-0d8855c9022b)
 
-the command to synthesixe the module sprcifies:
+the command to synthesize the module sprcifies:
 >    synth -top good_mux
 
 
 
 
 ![Screenshot from 2023-08-27 16-48-15](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/86eaa210-1832-48f3-b883-24c56b52621e)
+
+The command to generate the netlist file based on the .lib file mentioned
+>  abc -liberty /path to .lib file
+
+![Screenshot from 2023-08-27 17-25-47](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f65d5bda-8c7c-4963-b96a-7f4e5b5fedb4)
 
 
 
