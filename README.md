@@ -479,6 +479,7 @@ sudo apt-get install iverilog
 Below is the screenshot showing sucessful launch:
 
 
+
 ![Screenshot from 2023-08-27 12-57-45](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c483ee2a-cc49-47b3-9de9-0d4d51f3bf90)
 
 
