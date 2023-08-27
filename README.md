@@ -583,15 +583,21 @@ here we are using synthesizer called **yosys**
 ![Untitled2](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/6c4bdc5c-ee7f-4653-a1fb-83da5431cb51)
 
 
-**yosys setup**
+**yosys setup:**
 
 ![Untitled3](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/31c602bd-d703-44ea-bd00-3252efd281d0)
 
-**commands**
+**commands:**
 
 
 > read_verilog: to read the design
+
+
+
 > read_liberty: to read .lib
+
+
+
 > write_verilog: to write out the netlist file
 
 
