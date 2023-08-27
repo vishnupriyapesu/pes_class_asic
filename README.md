@@ -545,6 +545,9 @@ commands used to execute the gtkwave :
 > iverilog good_mux.v tb_good_mux.v
 
 > ./a.out
+
+
+
 > gtkwave tb_good_mux.vcd
 
 
