@@ -681,6 +681,17 @@ Below is an illustration of Synthesis.
 
 ![Screenshot from 2023-08-27 16-42-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/767f9f65-c56b-4734-b646-0d8855c9022b)
 
+the command to synthesixe the module sprcifies:
+>    synth -top good_mux
+
+
+
+
+![Screenshot from 2023-08-27 16-48-15](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/86eaa210-1832-48f3-b883-24c56b52621e)
+
+
+
+
 
 
 
