@@ -801,6 +801,44 @@ the command **:/cell** marks the main cells
 
 
 
+**what does the library contains?**
+
+
+**here are some features:**
+
+>  different flavour of different cells and different flavour of same cells.
+
+
+> leakage_power
+
+
+>  area number
+
+
+
+>  power port information
+
+
+> each input pin information
+
+
+>transition and delay associated with the cell
+
+
+> timing information
+
+
+>etc
+![Screenshot from 2023-08-27 23-03-09](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/156cadfe-07b1-462c-96ab-bd3590a61d18)
+
+
+
+
+
+
+
+
+
 
 
 
