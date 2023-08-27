@@ -540,9 +540,7 @@ here is the representation:
 
 ![Screenshot from 2023-08-27 13-52-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/827f4903-e4ce-4c4c-9a19-69f95caba993)
 
-good_mux.v and tb_good_mux.v are already present in verilog_files,here is the cose for good_mux.v and tb_good_mux.v:
-<br  />
-
+good_mux.v and tb_good_mux.v are already present in verilog_files,here is the cose for good_mux.v and tb_good_mux.v :<br />
 module good_mux (input i0 , input i1 , input sel , output reg y); 
 	always @ (*)
 	begin
@@ -576,6 +574,8 @@ always #75 sel = ~sel;
 always #10 i0 = ~i0;
 always #55 i1 = ~i1;
 endmodule
+
+
 
 
 ![Screenshot from 2023-08-27 13-49-55](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/69849729-78ba-44bb-850f-585c877a412b)
