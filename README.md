@@ -755,7 +755,12 @@ and then, use command:
 
 ![Screenshot from 2023-08-27 22-37-00](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/4cb62ba4-544d-4ea8-9ef1-dc6857f0359f)
 
- 
+use **syn off** command to vanish the color
+
+
+
+ ![Screenshot from 2023-08-27 22-39-45](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/fc66d50e-2903-4740-aa27-91946dd3a2b6)
+
 
 
 
