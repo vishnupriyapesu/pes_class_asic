@@ -828,7 +828,10 @@ the command **:/cell** marks the main cells
 > timing information
 
 
->etc
+>   etc
+
+
+
 ![Screenshot from 2023-08-27 23-03-09](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/156cadfe-07b1-462c-96ab-bd3590a61d18)
 
 
