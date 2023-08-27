@@ -672,8 +672,9 @@ Below is an illustration of Synthesis.
 >  read_liberty -lib /path to .lib file/ // It reads all the components in the .lib file
 
 
+![Screenshot from 2023-08-27 16-37-36](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1e04c520-eb47-4323-8068-f080250b1f6d)
 
-![Screenshot from 2023-08-27 16-21-05](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/bf6d5fdf-4463-4b13-af76-e14df9decc05)
+
 
 
 
