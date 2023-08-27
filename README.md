@@ -794,6 +794,13 @@ in the above library that is...
 
 
 
+the command **:/cell** marks the main cells 
+
+
+![Screenshot from 2023-08-27 22-55-26](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7521dcd7-c28b-4793-9111-ed4ad094d4b8)
+
+
+
 
 
 
