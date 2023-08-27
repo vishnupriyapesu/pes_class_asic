@@ -28,6 +28,7 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
    https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 
 
+
    
 > Download the run.sh
     
