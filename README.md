@@ -606,8 +606,12 @@ here we are using synthesizer called **yosys**
 **how to verify the synthesis:**
 
 
-
+we go back to the simulator iverilog :
 ![Untitled1](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ea579bb3-3332-4b48-9d55-e937ab3821c5)
+
+**NOTE:**
+the stimulus should be same as out put observed during RTL simulation
+
 
 
 
