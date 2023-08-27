@@ -465,6 +465,24 @@ Below is the screenshot showing sucessful launch:
 
 
 
+</details>
+
+<details>  
+<summary> Iverilog </summary>
+    
+I installed iverilog using the following command:
+
+```
+sudo apt-get install iverilog
+```
+
+Below is the screenshot showing sucessful launch:
+
+
+
+![Screenshot from 2023-08-27 12-56-25](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5f14f125-3cdb-41fd-8f2f-dd33330f4dd3)
+
+
 
 
 
