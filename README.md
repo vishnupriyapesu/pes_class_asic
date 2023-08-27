@@ -598,6 +598,7 @@ here we are using synthesizer called **yosys**
 
 
 
+
 > write_verilog: to write out the netlist file
 
 
