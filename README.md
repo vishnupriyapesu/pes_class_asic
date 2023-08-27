@@ -837,7 +837,10 @@ the command **:/cell** marks the main cells
 
 
 
-To check equivalent verilog model of the particular cell use command **path.behavioral.v** 
+To check equivalent verilog model of the particular cell use command **path.behavioral.v** (without power ports(pp))
+
+
+
 
 
 
