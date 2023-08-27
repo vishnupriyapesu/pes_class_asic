@@ -499,6 +499,32 @@ Below is the screenshot showing sucessful launch:
 
 ![Screenshot from 2023-08-27 13-02-36](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1384eb0f-2eab-438d-8287-7397311e46af)
 
+# Day-1-Introduction to Verilog RTL design and Synthesis
+<details>
+<summary>Introduction to Verilog RTL design and Synthesis</summary>
+
+ 
+**simulator**: tool used for checking the design.
+here as per our requirement,we are using iverilog as simulator.
+
+**RTL Design**: RTL esign is checked for implementing spec(required specifications) by simulating design.
+
+**Design**: is actual verilog code or  set of verilog code which has intended functionality to meet with the required specifications
+
+**Testbench**: is the setup to apply stimulus (test_vectors) to the designto check its functionality 
+> no primary inputs and primary outputs.
+
+**How simulator works?**
+
+> simulators looks for the chnages on the input signals.
+> up on the changes to the input ,the output is evaluated.
+
+here is the representation:
+blob:https://web.whatsapp.com/3a01ba29-3f56-49ba-8d1f-9db9a6814959
+
+
+
+
 
 
 
