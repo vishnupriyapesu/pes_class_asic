@@ -743,6 +743,15 @@ and then, use command:
 <summary>Introduction to timing .libs</summary>
 
 ### LAB- Introduction to dot Lib
+
+
+**command to extract .lib**
+
+>  gvim /path
+
+![Screenshot from 2023-08-27 22-35-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/b8dc818e-9de9-445c-8925-b49fd87e4da6)
+
+
  
 
 
