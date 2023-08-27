@@ -761,6 +761,43 @@ use **syn off** command to vanish the color
 
  ![Screenshot from 2023-08-27 22-39-45](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/fc66d50e-2903-4740-aa27-91946dd3a2b6)
 
+ as per above **.lib** file the first line represents the name of the library
+ and the above library is 130nm .
+
+
+ PVT -->  **P**rocess  **V**oltage **T**emperature ,important for design to work .
+in the above library that is... 
+ **sky130_fd_sc_hd__tt_025C_1v80**
+
+
+
+ > **tt** stands for typical process
+
+
+
+
+> **025c** tands for temperature
+
+
+
+
+>  **1v80**stands for voltage
+
+
+> technnology used --> CMOS
+
+
+
+
+>> and the libreies are characterised to model these variations.
+
+
+
+
+
+
+ 
+
 
 
 
