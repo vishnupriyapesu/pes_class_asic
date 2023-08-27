@@ -662,6 +662,16 @@ Below is an illustration of Synthesis.
 
 
 
+### Labs on Yosys introduction
+**Invoking Yosys:**
+
+
+![Screenshot from 2023-08-27 16-21-05](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5fbfdb56-c2c9-41c3-8e84-34e7d9d5f582)
+
+
+
+
+
 
 
 
