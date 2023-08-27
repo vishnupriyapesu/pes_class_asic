@@ -542,9 +542,7 @@ here is the representation:
 
 good_mux.v and tb_good_mux.v are already present in verilog_files.
 
-
-
-commands used to execute the gtkwave :
+**commands used to execute the gtkwave :**
 > iverilog good_mux.v tb_good_mux.v
 
 > ./a.out
