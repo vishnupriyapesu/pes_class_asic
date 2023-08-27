@@ -644,7 +644,21 @@ we go back to the simulator iverilog :
 ![Untitled5](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/256328bb-d698-42bb-aadc-24b5aec11120)
 
 
+**why faster nd slower cells?**
 
+>  To meet set up time we want cells to be faster cells and we want slower cells  to meet the hold time 
+
+**Faster Cells vs Slower Cells**: Load in digital circuit is of Capacitence. Faster the charging or dicharging of capacitance, lesser is the celll delay. However, for a quick charge/ discharge of capacitor, we need transistors capable of sourcing more current i.e, we need WIDE TRANSISTORS.
+
+Wider transistors have lesser delay but consume more area and power. Narrow transistors are other way around. Faster cells come with a cost of area and power.
+
+**Selection of the Cells**: We'll need to guide the Synthesizer to choose the flavour of cells that is optimum for implementation of logic circuit. Keeping in view of previous observations of faster vs slower cells,to avoid hold time violations, larger circuits, sluggish circuits, we offer guidance to synthesizer in the form of Constraints.
+
+Below is an illustration of Synthesis.
+
+
+
+![Screenshot from 2023-08-27 16-15-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0116516b-1a12-4c1a-ba87-57bfa5bbcf29)
 
 
 
