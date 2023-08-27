@@ -576,6 +576,8 @@ always #55 i1 = ~i1;
 endmodule
 
 
+![Screenshot from 2023-08-27 13-49-55](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/69849729-78ba-44bb-850f-585c877a412b)
+
 
 
 
