@@ -627,6 +627,28 @@ we go back to the simulator iverilog :
 
 
 
+**Introduction to loigc synthesis**:  
+
+ **RTL design**
+>  behavioral representation of the required specifications
+
+**how to map RTL design to the circuit?**
+--->  here comes the synthesis:
+
+>  RTL to gate level translation is calles as **synthesis**
+
+
+> the design is converted into gates and the connections are made between the gates,and this is given out as a file called netlist
+
+
+![Untitled5](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/256328bb-d698-42bb-aadc-24b5aec11120)
+
+
+
+
+
+
+
 
 
 
