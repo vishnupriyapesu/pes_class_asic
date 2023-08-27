@@ -554,7 +554,7 @@ good_mux.v and tb_good_mux.v are already present in verilog_files.
 
 
 
-**for extracting the file structure use command:**
+**for extracting the file structure , use command:**
 gvim tb_good_mux.v -o good_mux.v
 
 
@@ -701,6 +701,25 @@ The command to generate the netlist file based on the .lib file mentioned
 
 
 ![Screenshot from 2023-08-27 17-28-09](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/929e81de-2681-413a-bfc5-f3de2f62ad44)
+
+
+
+the command to write the netlist :
+>  write_verilog good_mux_netlist.v
+
+![Screenshot from 2023-08-27 17-37-43](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/fcd28e01-98fe-4b88-9b6f-b39c864f0b7d)
+
+
+**for extracting the file structure , use command:**
+>  !gvim good_mux_netlist.v
+
+
+
+![Screenshot from 2023-08-27 17-39-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/33304357-08c0-4b7b-9e30-68e75e62e119)
+
+
+
+
 
 
 
