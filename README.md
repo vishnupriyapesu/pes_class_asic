@@ -541,6 +541,9 @@ here is the representation:
 ![Screenshot from 2023-08-27 13-52-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/827f4903-e4ce-4c4c-9a19-69f95caba993)
 
 good_mux.v and tb_good_mux.v are already present in verilog_files.
+
+
+
 commands used to execute the gtkwave :
 > iverilog good_mux.v tb_good_mux.v
 
