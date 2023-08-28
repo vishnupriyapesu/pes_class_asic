@@ -852,7 +852,13 @@ To check equivalent verilog model of the particular cell use command **path.beha
 
 
 
+**here is the different flavour of and cell:**
 
+
+
+
+
+![Screenshot from 2023-08-28 05-42-24](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/63e3992d-9e70-41bf-b176-496e18c41536)
 
 
 
