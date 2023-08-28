@@ -542,7 +542,7 @@ here is the representation:
 
 good_mux.v and tb_good_mux.v are already present in verilog_files.
 
-**good_mux**<br />
+**good_mux and tb_good_mux**<br />
 
 	module good_mux (input i0 , input i1 , input sel , output reg y); 
 		always @ (*)
