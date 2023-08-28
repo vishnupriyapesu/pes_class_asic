@@ -864,7 +864,7 @@ To check equivalent verilog model of the particular cell use command **path.beha
 from here we can observe that in terms of area,power **and2_4 > and2_2 > and2_0**
 and we can also observe that in term of delay **and2_4 < and2_2 < and2_0**
 
->  this means and2_4 has **wider transistors** hence cell**and2_4** is **fast** and has **more area**
+>  this means and2_4 has **wider transistors** hence cell **and2_4** is **fast** and has **more area**
 
 >  and  and2_0 has **narrow transistors** hence cell **and2_0** is **slow** and has **less area**
 
