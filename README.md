@@ -1071,6 +1071,13 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 
 
+![Screenshot from 2023-08-28 16-38-55](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2346d895-12b6-4b52-9319-1cd67623cd0c)
+
+
+>  the hierarchies of sub_module1 and sub_module2 is preserved in **multiple_modules_hier.v**
+
+
+> whereas in the **multiple_modules_flat.v** 
 
 
 
