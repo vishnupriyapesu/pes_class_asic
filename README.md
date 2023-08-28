@@ -431,9 +431,6 @@ This github repository summarizes the progress made in the ASIC class. Quick lin
 
 - [Day-5-if, case, for loop and for generate](#6-Day-5-if-case-for-loop-and-for-generate)
 
-- [Word of Thanks](#Word-of-Thanks)
-
-- [Reference](#reference)
 
 
 ## Day-0-Installation
@@ -1208,6 +1205,11 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 
 ![Screenshot from 2023-08-28 23-21-08](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0de0514b-85f9-4f4a-889f-bc3f439bf7dd)
+
+
+**synchronous rest:**
+
+
 
 
 
