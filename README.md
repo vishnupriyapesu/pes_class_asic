@@ -997,6 +997,11 @@ and we can also observe that in term of delay **and2_4 < and2_2 < and2_0**
 
 
 
+ 
+![Screenshot from 2023-08-28 07-04-19](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e59481a5-17fa-4e72-9ffc-a2d4927b59e1)
+
+
+
 
 
 
