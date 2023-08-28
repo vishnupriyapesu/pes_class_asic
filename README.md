@@ -1145,6 +1145,13 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 > hence we need element to store the value of glitch ,and the element is called as **flops**
 
 
+--> the output of the flop changes only on the edge of the clock,means if the input is glitching the output will be stable,meaning the stable output is given next combinational circuit then the output of the combinational circuit will also be stable.
+
+**therefore this the main purpose of using flops in the digital circuit.**
+
+**how to code the flops?**
+
+
 
  
 
