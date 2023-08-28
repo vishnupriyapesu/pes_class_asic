@@ -1104,7 +1104,7 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 > read_verilog multiple_modules.v
 
 
-> synth -top sub_module1
+> **synth -top sub_module1**
 
 
 > abc -liberty /path
@@ -1123,6 +1123,11 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 ![Screenshot from 2023-08-28 17-25-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/8453c19f-909c-4bb2-8164-5c0a776559d9)
 
 
+**Reason why we use sub module level synthesis:**
+
+> sub module level synthesis is used when we have multiple instance of same module
+
+> divide and conquer
 
 
 
