@@ -1172,6 +1172,9 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 **Simulation**
 
+**asynchronous reset:**
+
+
 ![Screenshot from 2023-08-28 23-03-46](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c2bd28bd-3dd1-4c0e-937d-290ed8fa767e)
 
       
@@ -1179,9 +1182,17 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 ![Screenshot from 2023-08-28 23-03-20](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0c024648-608b-4cb4-a34e-26605b85a75d)
 
+**asynchronous set:**
 
 
 
+![Screenshot from 2023-08-28 23-21-24](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/d7bfb2c3-6167-4fed-9893-b3c2b1bd8c71)
+
+
+
+
+
+![Screenshot from 2023-08-28 23-21-08](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0de0514b-85f9-4f4a-889f-bc3f439bf7dd)
 
 
 
