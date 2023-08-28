@@ -1169,9 +1169,15 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 	    end
         endmodule
 
+
+**Simulation**
+
+![Screenshot from 2023-08-28 23-03-46](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c2bd28bd-3dd1-4c0e-937d-290ed8fa767e)
+
       
 
 
+![Screenshot from 2023-08-28 23-03-20](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0c024648-608b-4cb4-a34e-26605b85a75d)
 
 
 
