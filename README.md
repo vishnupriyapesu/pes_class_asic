@@ -1185,6 +1185,8 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 **asynchronous set:**
 
 **module dff_asyn_set**<br />
+
+
              module module dff_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
 	           always @ (posedge clk )
 	           begin
