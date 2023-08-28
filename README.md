@@ -1063,9 +1063,9 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 
 
-![Screenshot from 2023-08-28 16-37-14](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/092db254-e68b-4c18-ad05-c05f55afc8c6)
 
 
+![Screenshot from 2023-08-28 16-52-01](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/69a1fe8a-928f-4f0f-a9e4-719aa246b37a)
 
 
 
