@@ -946,7 +946,7 @@ and we can also observe that in term of delay **and2_4 < and2_2 < and2_0**
 
 
 
-> read_liberty -lib /hpath
+> read_liberty -lib /path
 
 
 
@@ -1091,7 +1091,36 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 
 
+**To obtain only sub_module1 :**
 
+> invoke yosys
+
+
+
+> read_liberty -lib /path
+
+
+
+> read_verilog multiple_modules.v
+
+
+> synth -top sub_module1
+
+
+> abc -liberty /path
+
+
+> show
+
+
+
+![Screenshot from 2023-08-28 17-22-53](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f66f732f-4e11-470b-9a0d-b7b7f77e0924)
+
+**we can observe synth -top sub_module1** is only providing the info about sub_module1
+
+
+
+![Screenshot from 2023-08-28 17-25-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/8453c19f-909c-4bb2-8164-5c0a776559d9)
 
 
 
