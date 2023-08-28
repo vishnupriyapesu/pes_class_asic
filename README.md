@@ -1159,15 +1159,15 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 **module dff_asyncres**<br />
 
 
- module dff_asyncres ( input clk ,  input async_reset , input d , output reg q );
-	always @ (posedge clk , posedge async_reset)
-	begin
-		if(async_reset)
-			q <= 1'b0;
-		else	
-			q <= d;
-	end
-endmodule
+        module dff_asyncres ( input clk ,  input async_reset , input d , output reg q );
+	    always @ (posedge clk , posedge async_reset)
+	    begin
+		      if(async_reset)
+			    q <= 1'b0;
+		      else	
+			     q <= d;
+	    end
+        endmodule
 
       
 
