@@ -1137,7 +1137,7 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
  **why flops?**
 
->  if inputs are given ,ouputs appears after some propogation delay ,because of propogation delay the outs will have some glitches.
+>  if inputs are given ,ouputs appears after some propogation delay ,because of propogation delay the outputs will have some glitches.
 
 
 >  more the number of combinational circuit more the glitch so ,we should avoid this glitch
@@ -1154,7 +1154,19 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 > To initialize the flop ,there are control pins on the flop like **reset or set**
 
-> these rest and set can either be **synchronous or asynchronous**
+> these reset and set can either be **synchronous or asynchronous**
+
+<br />  module dff_asyncres ( input clk ,  input async_reset , input d , output reg q );
+	always @ (posedge clk , posedge async_reset)
+	begin
+		if(async_reset)
+			q <= 1'b0;
+		else	
+			q <= d;
+	end
+endmodule
+
+
 
 
 
