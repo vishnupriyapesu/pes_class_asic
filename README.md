@@ -1184,6 +1184,19 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 **asynchronous set:**
 
+**module dff_asyn_set**<br />
+             module module dff_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
+	        always @ (posedge clk )
+	        begin
+		       if (sync_reset)
+			    q <= 1'b0;
+		       else	
+			    q <= d;
+	        end
+             endmodule
+
+
+
 
 
 ![Screenshot from 2023-08-28 23-21-24](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/d7bfb2c3-6167-4fed-9893-b3c2b1bd8c71)
