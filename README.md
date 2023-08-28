@@ -800,6 +800,12 @@ the command **:/cell** marks the main cells
 ![Screenshot from 2023-08-27 22-55-26](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7521dcd7-c28b-4793-9111-ed4ad094d4b8)
 
 
+example:if the command **:/cell .*and*** is given then,it highlights the cell called**and**
+
+
+![Screenshot from 2023-08-28 05-29-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ecaf939a-e5a5-4cbd-9252-7b4f71eb7b33)
+
+
 
 **what does the library contains?**
 
