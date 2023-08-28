@@ -1152,6 +1152,14 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 **how to code the flops?**
 
 
+> To initialize the flop ,there are control pins on the flop like **reset or set**
+
+> these rest and set can either be **synchronous or asynchronous**
+
+
+
+
+
 
  
 
