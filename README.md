@@ -998,6 +998,29 @@ and we can also observe that in term of delay **and2_4 < and2_2 < and2_0**
 
 
  
+
+
+
+
+ideally we are expected to see **AND** and **OR** gates 
+
+
+
+
+
+![Untitled6](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/39ac8274-c6b3-4032-906c-3ef1f9ee47d3)
+
+
+
+
+
+
+
+
+
+but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this what we call **Hierarchical synthesis**
+
+
 ![Screenshot from 2023-08-28 07-04-19](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e59481a5-17fa-4e72-9ffc-a2d4927b59e1)
 
 
