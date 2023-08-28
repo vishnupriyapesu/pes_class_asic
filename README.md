@@ -852,13 +852,22 @@ To check equivalent verilog model of the particular cell use command **path.beha
 
 
 
-**here is the different flavour of and cell:**
+**here is the different flavour of "and" cell:**
 
 
 
 
 
 ![Screenshot from 2023-08-28 05-42-24](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/63e3992d-9e70-41bf-b176-496e18c41536)
+
+
+from here we can observe that in terms of area,power **and2_4 > and2_2 > and2_0**
+and we can also observe that in term of delay **and2_4 < and2_2 < and2_0**
+
+>  this means and2_4 has **wider transistors** hence cell**and2_4** is **fast** and has **more area**
+
+>  and  and2_0 has **narrow transistors** hence cell **and2_0** is **slow** and has **less area**
+
 
 
 
