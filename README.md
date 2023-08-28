@@ -939,18 +939,62 @@ and we can also observe that in term of delay **and2_4 < and2_2 < and2_0**
 ![Screenshot from 2023-08-28 06-34-54](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ab8abf80-7384-45ec-af9b-ac30de7136ed)
 
 
+**commands used:**
+
+> yosys --> to invoke yosys
+
+
+
+
+> read_liberty -lib /hpath
+
+
+
+> read_verilog multiple_modules.v
+
+
+
+
+> synth -top multiple_modules
 
 
 
 
 
+> abc -liberty /path
+
+
+
+
+> show multiple_modules
+
+
+
+
+![Screenshot from 2023-08-28 06-50-03](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/cf0c7276-48bd-4afc-b599-4794c181e2a2)
 
 
 
 
 
+![Screenshot from 2023-08-28 06-50-48](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/793bc266-12e8-41aa-a363-7ca4e8f9cd8a)
 
- 
+
+
+
+![Screenshot from 2023-08-28 06-51-15](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/793e503b-2cce-4db7-a0f7-c5ceb2919445)
+
+
+
+
+
+![Screenshot from 2023-08-28 06-51-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/102b3923-d785-45b7-b8f7-84be72b83c6d)
+
+
+
+
+ ![Screenshot from 2023-08-28 06-51-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/aa54ea61-eae6-4121-98cc-d27fe12e0904)
+
 
 
 
