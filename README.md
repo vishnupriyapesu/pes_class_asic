@@ -1135,6 +1135,9 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 <details>
 	<summary>Various Flop coding styles and optimization</summary>
 
+ **why flops?**
+
+ if inputs are given ,ouputs appears after some propogation delay ,because of propogation delay the outs will have some glitches.
  
 
 
