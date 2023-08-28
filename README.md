@@ -1082,6 +1082,16 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 
 
+![Screenshot from 2023-08-28 17-09-39](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/64a801ae-728b-4766-b57f-0a57b77d004e)
+
+
+> since we have flattened the multiple_modules.v we dont see any **u1 sub_module1** and **u2 sub_module2** 
+
+> when we flatten we directly see the structure completly
+
+
+
+
 
 
 
