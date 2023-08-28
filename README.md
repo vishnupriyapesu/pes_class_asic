@@ -1054,6 +1054,12 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 --> hierarchies are preserved
 
 
+**flatten** is the command to write flat netlist
+
+
+
+![Screenshot from 2023-08-28 16-35-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/35ae3f48-73c9-4cf8-bebd-040b181ec29f)
+
 
 
 
