@@ -1007,8 +1007,9 @@ ideally we are expected to see **AND** and **OR** gates
 
 
 
+![Untitled7](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7ee80417-f2ac-474d-9c0d-e40fb5d1df16)
 
-![Untitled6](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/39ac8274-c6b3-4032-906c-3ef1f9ee47d3)
+
 
 
 
