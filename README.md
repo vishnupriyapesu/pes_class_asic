@@ -1188,13 +1188,13 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 
              module module dff_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
-	           always @ (posedge clk )
-	           begin
-		         if (sync_reset)
-			      q <= 1'b0;
-		         else	
-			      q <= d;
-	           end
+	         always @ (posedge clk )
+	         begin
+		           if (sync_reset)
+			         q <= 1'b0;
+		           else	
+			         q <= d;
+	         end
              endmodule
 
 
