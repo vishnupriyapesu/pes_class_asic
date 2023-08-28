@@ -930,7 +930,13 @@ and we can also observe that in term of delay **and2_4 < and2_2 < and2_0**
 	sub_module2 u2(.a(net1),.b(c),.y(y));  //y = net1|c ,ie y = a&b + c;
 	endmodule
 
+ command used:
+ >  gvim multiple_modules.v
 
+ 
+
+
+![Screenshot from 2023-08-28 06-34-54](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ab8abf80-7384-45ec-af9b-ac30de7136ed)
 
 
 
