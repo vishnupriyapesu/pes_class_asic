@@ -1104,7 +1104,7 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 > read_verilog multiple_modules.v
 
 
-> **synth -top sub_module1**
+> **synth -top <module1_name>**
 
 
 > abc -liberty /path
@@ -1128,6 +1128,17 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 > sub module level synthesis is used when we have multiple instance of same module
 
 > divide and conquer
+
+
+</details>
+ 
+<details>
+	<summary>Various Flop coding styles and optimization</summary>
+
+ 
+
+
+
 
 
 
