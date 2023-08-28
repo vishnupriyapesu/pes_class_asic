@@ -1137,7 +1137,15 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
  **why flops?**
 
- if inputs are given ,ouputs appears after some propogation delay ,because of propogation delay the outs will have some glitches.
+>  if inputs are given ,ouputs appears after some propogation delay ,because of propogation delay the outs will have some glitches.
+
+
+>  more the number of combinational circuit more the glitch so ,we should avoid this glitch
+
+> hence we need element to store the value of glitch ,and the element is called as **flops**
+
+
+
  
 
 
