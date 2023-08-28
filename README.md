@@ -1025,19 +1025,27 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 
 
+**to view the netlist commands used:**
+
+
+> write_verilog -noattr multiple_modules_hier.v
+
+
+> !gvim multiple_modules_hier.v
+
+
+
+
+![Screenshot from 2023-08-28 07-15-33](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f3ae9be0-82e8-46ea-80cd-6516c0f6b1eb)
 
 
 
 
 
 
+![Screenshot from 2023-08-28 07-18-30](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a0c65c35-64b1-47bf-9d05-02264de63b95)
 
-
-
-
-
-
-
+**hierarchies are preserved**
 
 
 
