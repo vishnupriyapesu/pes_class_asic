@@ -1549,8 +1549,19 @@ command to do the optimizations is **opt_clean -purge**
 
 
 
+4) **opt_check4**<br />
 
 
+           module opt_check4 (input a , input b , input c , output y);
+	           assign y = a?(b?(a & c ):c):(!c);
+           endmodule
+
+
+**synthesis**
+
+
+
+![Screenshot from 2023-08-29 23-24-55](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ebeb90bc-500f-4ded-871d-5269a1457f29)
 
 
 
