@@ -1344,10 +1344,8 @@ let the relation between them be **a*9=y**
 
 # Day-3-combinational and sequential optmizations
 <details>
-<summary>Combinational logic optimization with examples</summary>
+<summary>intoduction to optimizations</summary>
 
-
-### introduction to optimizations
 
  **In digital logic we have two types logics,namely:**
 
