@@ -439,7 +439,7 @@ This github repository summarizes the progress made in the ASIC class. Quick lin
 
 
 
-## Day-0-Installation
+## Installation
 <details>
  <summary> Summary </summary>
 	
