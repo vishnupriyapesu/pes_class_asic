@@ -1630,7 +1630,10 @@ synthesis with **flatten**
 
 
 
+</details>
 
+<details>
+<summary>Sequential Logic Optimization with examples</summary>
 
 
 
