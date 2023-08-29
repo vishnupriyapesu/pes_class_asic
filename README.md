@@ -1308,6 +1308,19 @@ multiplying a number with 2 doesn't need any additional hardware and only needs 
 
 ![Screenshot from 2023-08-29 08-14-18](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ed11e3b1-d0a4-45d8-acf1-e28b289d6a48)
 
+**special case**
+
+
+take **a** as 2 bit number a[2:0] and y as 6 bit number y[6:0]
+
+let the relation between them be **a*9=y**
+
+
+**netlist**
+
+![Screenshot from 2023-08-29 08-33-06](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/02d716a7-e646-46c4-9cdf-75fc9815eac9)
+
+
 
 
 
