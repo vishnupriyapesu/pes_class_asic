@@ -1387,19 +1387,15 @@ for example: **Y=(AB+C)'**
 **realization in terms of CMOS**
 
 
-![Untitled8](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/8f12da9a-da69-420c-8e8c-0c881bfdc238)
 
+![Untitled11](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ed36cc20-cab6-4523-99f0-c53e99bbe142)
 
-we need 6 transistors
+for the example given we need 6 transistors but after simplifing we got inverter which has only two transistor that has less area and power .
 
-aftrer simplification:
-
-
-![Untitled9](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2cf51304-b236-4af7-a203-3ffb0f8b1669)
-
-we got inverter which has only two transistor that has less area and power .
 
 **i.e., effectively the zero on A got propogated down the logic**
+
+
 
 
 
