@@ -261,6 +261,7 @@ We wrote a C program that shows the maximum and minimum values of 64bit signed n
 
 **Application Binary Interface**
 
+
 **Introduction to ABI**
 
 An Application Binary Interface (ABI) is a set of rules and conventions that dictate how binary code interacts with and communicates with other binary code, typically at the level of machine code or compiled code. In simpler terms, it defines the interface between two software components or systems that are written in different programming languages, compiled by different compilers, or running on different hardware architectures.
