@@ -1421,6 +1421,65 @@ output of MUX3 is **z'c'+a[bc+b'ac]=a'c'+abc+ab'c =a'c'+ac[b+b'] =a'c'+ac**
 Therefore the complicated equation  **Y=a?(b/c:(c?a:0)):(!c)** is simplified or optimized logic **a'c'+ac**
 
 
+**sequential logic optimizations**
+
+techniques:
+
+>  basic
+
+--> sequential constant propogation
+
+> Advanced optimization
+
+--> state optimization
+
+
+--> retiming 
+
+
+--> sequential logic cloning (floor plan Aware synthesis)
+
+**sequential constant**
+
+-- if there is a reset then Q=0
+
+-- if reset is not there then also Q=0 because D=0
+
+
+![Untitled13](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/99efbb6b-7d4b-422d-aa5a-5ec9a761a2da)
+
+
+basically Q is always zero whether we apply clock or reset
+
+and,
+
+--y is always 1 irrespective of clock ,reset,Q because of sequential constant
+
+>  if set clock connected to the circuit
+
+
+**when we apply set**
+
+
+![Untitled14](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a3edc2fe-928c-47ff-a1d9-8f8c446691ab)
+
+
+-- when set is applied Q=1
+
+
+-- when set is not applied and there is a clock Q=0
+
+-- every flop with D input is not a sequential constant ,for clock to become sequential constant  Q pin should always take constabt value
+
+
+state optimization,cloning,retimimg
+
+
+
+
+
+
+
 
 
 
