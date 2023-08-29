@@ -1207,12 +1207,22 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 ![Screenshot from 2023-08-28 23-21-08](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0de0514b-85f9-4f4a-889f-bc3f439bf7dd)
 
 
-**synchronous rest:**
+**synchronous reset:**
+
+
+
+
+here even if reset went high output **q** is not going low immediately it is waiting for subsequent **clock edge** and then it is going low.means the reset is applied up on the positive edge of the clock  ---> synchronous reset
 
 
 
 
 
+![Screenshot from 2023-08-29 07-24-45](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/655170d2-e717-45fb-aa2c-0a819d8f280c)
+
+
+
+![Screenshot from 2023-08-29 07-25-10](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/9044ab16-a2ea-4a5e-83b8-f169dcb2d7fe)
 
 
 
