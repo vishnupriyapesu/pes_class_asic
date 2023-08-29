@@ -1482,6 +1482,9 @@ and,
  <details>
 <summary>LAB- combinational logic optimizations</summary>
 
+### we are going to use opt files(*opt_check*) in this lab
+
+
 
 
 
