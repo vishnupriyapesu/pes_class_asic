@@ -10,6 +10,7 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 
 > Architectural Design
 
+
 > RTL Design / Behavioral Modeling
     
 > Floorplanning
