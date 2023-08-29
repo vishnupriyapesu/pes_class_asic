@@ -1485,6 +1485,18 @@ and,
 ### we are going to use opt files(*opt_check*) in this lab
 
 
+command to do the optimizations is **opt_clean -purge**
+
+1) **opt_check**<br />
+
+     module opt_check (input a , input b , output y);
+	     assign y = a?b:0;
+     endmodule
+
+synthesis
+
+
+
 
 
 
