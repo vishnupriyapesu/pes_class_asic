@@ -1432,3 +1432,4 @@ therefore the complicated equation  **Y=a?(b/c:(c?a:0)):(!c)** is simplified or 
 
 
 
+
