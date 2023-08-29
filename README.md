@@ -1564,4 +1564,35 @@ command to do the optimizations is **opt_clean -purge**
 ![Screenshot from 2023-08-29 23-24-55](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ebeb90bc-500f-4ded-871d-5269a1457f29)
 
 
+5) **multiple_modules_opt**<br />
+
+	module sub_module1(input a , input b , output y);
+	 assign y = a & b;
+	endmodule
+
+	module sub_module2(input a , input b , output y);
+	 assign y = a^b;
+	endmodule
+
+	module multiple_module_opt(input a , input b , input c , input d , output y);
+	wire n1,n2,n3;
+	sub_module1 U1 (.a(a) , .b(1'b1) , .y(n1));
+	sub_module2 U2 (.a(n1), .b(1'b0) , .y(n2));
+	sub_module2 U3 (.a(b), .b(d) , .y(n3));
+
+	assign y = c | (b & n1); 
+	endmodule
+
+synthesis with out **flatten**
+
+
+![Screenshot from 2023-08-29 23-46-45](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/dd13a357-2a44-455d-9a47-74ea27e5dc2f)
+
+
+
+![Screenshot from 2023-08-29 23-45-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/dee0f7d4-1073-4c03-a6cb-743d483c146d)
+
+
+
+
 
