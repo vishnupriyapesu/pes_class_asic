@@ -1303,7 +1303,10 @@ multiplying a number with 2 doesn't need any additional hardware and only needs 
 	      assign y = a * 2;
       endmodule
 
+**synthesis:**
 
+
+![Screenshot from 2023-08-29 08-14-18](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/ed11e3b1-d0a4-45d8-acf1-e28b289d6a48)
 
 
 
