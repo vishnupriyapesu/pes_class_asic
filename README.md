@@ -1512,16 +1512,29 @@ command to do the optimizations is **opt_clean -purge**
 
 
 
+2) **opt_check2**<br />
+
+
+        module opt_check2 (input a , input b , output y);
+	        assign y = a?1:b;
+        endmodule
+
+
+**synthesis**
 
 
 
 
+![Screenshot from 2023-08-29 23-11-18](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5f92f1d5-e14d-41b4-b656-882ea67478e5)
+
+
+
+![Screenshot from 2023-08-29 23-11-29](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f2d45181-c94e-47a4-b9db-ac9c9104a503)
 
 
 
 
-
-
+![Screenshot from 2023-08-29 23-11-54](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/99a84b1b-f6d7-474c-84c0-f17a3d271703)
 
 
 
