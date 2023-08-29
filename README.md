@@ -1339,6 +1339,7 @@ let the relation between them be **a*9=y**
 
 ![Screenshot from 2023-08-29 08-43-15](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e4dad4a1-81ea-4a8d-99c7-643c0ff69b76)
 
+<details>
 
 
 
@@ -1347,6 +1348,7 @@ let the relation between them be **a*9=y**
 # Day-3-combinational and sequential optmizations
 <details>
 <summary>Combinational logic optimization with examples</summary>
+
 
 ### introduction to optimizations
 
