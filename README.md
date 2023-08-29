@@ -1336,4 +1336,11 @@ let the relation between them be **a*9=y**
 
 
 
+# Day3-Combinational and sequential optmizations
+<details>
+<summary> Combinational logic optimization with examples </summary>
+
+
+
+
 
