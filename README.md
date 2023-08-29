@@ -1411,3 +1411,5 @@ for the example given we need 6 transistors but after simplifing we got inverter
 
 
 
+
+
