@@ -1192,6 +1192,7 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 **asynchronous set:**
 
+
 **module dff_asyn_set**<br />
 
 
@@ -1206,6 +1207,10 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
              endmodule
 
 
+**simulation**
+
+
+
 
 
 
@@ -1217,6 +1222,17 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 
 ![Screenshot from 2023-08-28 23-21-08](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0de0514b-85f9-4f4a-889f-bc3f439bf7dd)
 
+**synthesis**
+![Screenshot from 2023-08-29 07-46-58](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/66f34fd1-4c1b-4bbe-a0f8-7164c4a8f235)
+
+
+
+![Screenshot from 2023-08-29 07-48-52](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/63624db9-cc20-4808-8d6c-8ff62a2b6b37)
+
+
+
+
+![Screenshot from 2023-08-29 07-49-34](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/3f002be2-a3b1-48e2-8577-64eb34309a42)
 
 **synchronous reset:**
 
