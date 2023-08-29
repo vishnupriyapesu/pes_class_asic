@@ -1418,7 +1418,12 @@ output of MUX2 is **b'ac+bc**
 
 output of MUX3 is **z'c'+a[bc+b'ac]=a'c'+abc+ab'c =a'c'+ac[b+b'] =a'c'+ac**
 
-therefore the complicated equation  **Y=a?(b/c:(c?a:0)):(!c)** is simplified or optimized logic **a'c'+ac**
+Therefore the complicated equation  **Y=a?(b/c:(c?a:0)):(!c)** is simplified or optimized logic **a'c'+ac**
+
+
+
+
+
 
 
 
