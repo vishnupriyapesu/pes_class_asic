@@ -1537,8 +1537,15 @@ command to do the optimizations is **opt_clean -purge**
 ![Screenshot from 2023-08-29 23-11-54](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/99a84b1b-f6d7-474c-84c0-f17a3d271703)
 
 
+3) **opt_check3**<br />
+           module opt_check3 (input a , input b, input c , output y);
+	           assign y = a?(c?b:0):0;
+           endmodule
 
 
+**synthesis**
+
+![Screenshot from 2023-08-29 23-18-11](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/d30f4124-ae8f-4fa7-bf4c-6b5949ab7964)
 
 
 
