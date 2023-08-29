@@ -1409,3 +1409,5 @@ we got inverter which has only two transistor that has less area and power .
 
 
 
+
+
