@@ -1291,6 +1291,18 @@ here even if reset went high output **q** is not going low immediately it is wai
 ![Screenshot from 2023-08-29 07-56-28](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5a547c19-d88e-444b-adee-b4bab099cc86)
 
 
+**interesting optimization**
+
+multiplying a number with 2 doesn't need any additional hardware and only needs connecting the bits from a to y and grounding the LSB bit of y is enough 
+
+
+**module mul2**<br />
+
+      module mul2 (input [2:0] a, output [3:0] y);
+	      assign y = a * 2;
+      endmodule
+
+
 
 
 
