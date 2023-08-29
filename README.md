@@ -1397,9 +1397,28 @@ for the example given we need 6 transistors but after simplifing we got inverter
 
 
 
+**Example for boolean logic optimization**
+
+
+assign Y=a?(b/c:(c?a:0)):(!c)
 
 
 
+![Untitled12](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/9d79c1b5-09a4-46c4-bad3-b88710ccbfde)
+
+
+
+
+
+ternary operator is like **MUX**
+
+output of MUX1 is **ac+c'.0=ac**
+
+output of MUX2 is **b'ac+bc**
+
+output of MUX3 is **z'c'+a[bc+b'ac]=a'c'+abc+ab'c =a'c'+ac[b+b'] =a'c'+ac**
+
+therefore the complicated equation  **Y=a?(b/c:(c?a:0)):(!c)** is simplified or optimized logic **a'c'+ac**
 
 
 
