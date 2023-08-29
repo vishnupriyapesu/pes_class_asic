@@ -1224,6 +1224,8 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 ![Screenshot from 2023-08-28 23-21-08](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0de0514b-85f9-4f4a-889f-bc3f439bf7dd)
 
 **synthesis**
+
+
 ![Screenshot from 2023-08-29 07-46-58](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/66f34fd1-4c1b-4bbe-a0f8-7164c4a8f235)
 
 
