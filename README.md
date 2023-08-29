@@ -1339,6 +1339,56 @@ let the relation between them be **a*9=y**
 <details>
 <summary> Combinational logic optimization with examples </summary>
 
+ **In digital logic we have two types logics,namely:**
+
+ 
+ > combinational logic
+
+
+ > sequential logic
+
+
+**why combinational logic optimization?**
+
+>  To squeez the logic to get the most optimized design
+
+
+
+-->optimized design will be more efficient in terms of area and design
+
+
+**Techniques used for combinational logic optimization**
+
+> constant propagation --> direct optimization
+
+> boolean logic optimization --> using techniques like K-map or  quine McKlusKey
+
+
+**Example for Constant propogation** --> direct optimization
+
+
+![Untitled10](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/d4b54749-9992-49cd-bb07-03aa54c93144)
+
+for example: **Y=(AB+C)'**
+
+**realization in terms of CMOS**
+
+
+![Untitled8](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/8f12da9a-da69-420c-8e8c-0c881bfdc238)
+
+
+we need 6 transistors
+
+aftrer simplification:
+
+
+![Untitled9](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2cf51304-b236-4af7-a203-3ffb0f8b1669)
+
+we got inverter which has only two transistor that has less area and power .
+
+**i.e., effectively the zero on A got propogated down the logic**
+
+
 
 
 
