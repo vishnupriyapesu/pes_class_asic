@@ -1344,7 +1344,7 @@ let the relation between them be **a*9=y**
 
 # Day-3-combinational and sequential optmizations
 <details>
-<summary>intoduction to optimizations</summary>
+<summary>introduction to optimizations</summary>
 
 
  **In digital logic we have two types logics,namely:**
@@ -1476,6 +1476,11 @@ and,
 --logic is done when we are doing physical aware synthesis **cloning**
 
 --technique to improve performance of the circuit **retiming**
+
+</details>
+
+ <details>
+<summary>LAB- combinational logic optimizations</summary>
 
 
 
