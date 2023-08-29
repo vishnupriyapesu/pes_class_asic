@@ -1493,12 +1493,22 @@ command to do the optimizations is **opt_clean -purge**
 	     assign y = a?b:0;
      endmodule
 
-synthesis
+
+   **synthesis**
+
+   
+![Screenshot from 2023-08-29 23-03-46](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/4b0f954b-cfb4-4b7b-b89c-ed2176b02a75)
+
+
+
+
+![Screenshot from 2023-08-29 23-03-55](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c6038f17-d119-4eed-8be3-494509e05d7d)
 
 
 
 
 
+![Screenshot from 2023-08-29 22-23-03](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c8f707ca-a40a-4e4f-ade0-a8ff9a0e8871)
 
 
 
