@@ -1468,8 +1468,20 @@ and,
 
 -- every flop with D input is not a sequential constant ,for clock to become sequential constant  Q pin should always take constabt value
 
+**Advanced optimizations:**
 
-state optimization,cloning,retimimg
+
+**state optimization,cloning,retimimg**
+
+-- optimization of unused state is called **state optimization**
+
+--logic is done when we are doing physical aware synthesis **cloning**
+
+--technique to improve performance of the circuit **retiming**
+
+
+
+
 
 
 
