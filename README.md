@@ -1238,17 +1238,19 @@ but we are getting it as **sub_module1**--u1 and **sub_module2**--u2 so, this wh
 ![Screenshot from 2023-08-29 07-49-34](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/3f002be2-a3b1-48e2-8577-64eb34309a42)
 
 **synchronous reset:**
+
+
 **module dff_syncres**<br />
 
-module dff_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
-	always @ (posedge clk )
-	begin
-		if (sync_reset)
-			q <= 1'b0;
-		else	
-			q <= d;
-	end
-endmodule
+          module dff_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
+	         always @ (posedge clk )
+	         begin
+		    if (sync_reset)
+			  q <= 1'b0;
+		    else	
+			  q <= d;
+	          end
+          endmodule
 
 **simulation:**
 
