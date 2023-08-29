@@ -422,7 +422,7 @@ chmod 777 rv32im.sh
 
 This github repository summarizes the progress made in the ASIC class. Quick links:
 
-- [Day-0-Installation](#day-0-Installation)
+- [Installation](#Installation)
 
 - [Day-1-Introduction to Verilog RTL design and Synthesis](#Day-1--Introduction-to-Verilog-RTL-design-and-Synthesis)
 
