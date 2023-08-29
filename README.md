@@ -1594,5 +1594,43 @@ synthesis with out **flatten**
 
 
 
+synthesis with **flatten**:
+
+![Screenshot from 2023-08-29 23-53-15](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/48a71d19-54e4-42c1-bd5c-25410d40460a)
+
+
+![Screenshot from 2023-08-29 23-53-34](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0c1dba52-b427-4230-822f-e2a48e70760d)
+
+
+6) **multiple_module_opt2**<br />
+
+module sub_module(input a , input b , output y);
+	assign y = a & b;
+endmodule
+
+module multiple_module_opt2(input a , input b , input c , input d , output y);
+	wire n1,n2,n3;
+	sub_module U1 (.a(a) , .b(1'b0) , .y(n1));
+	sub_module U2 (.a(b), .b(c) , .y(n2));
+	sub_module U3 (.a(n2), .b(d) , .y(n3));
+	sub_module U4 (.a(n3), .b(n1) , .y(y));
+endmodule
+
+
+synthesis without **flatten**
+
+
+![Screenshot from 2023-08-29 23-59-14](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f85da66b-589a-4985-b43f-06e97cdb5b53)
+
+
+synthesis with **flatten**
+
+
+![Screenshot from 2023-08-30 00-01-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/268d6f00-bb1f-4b41-93a7-1f69d1edc313)
+
+
+
+
+
 
 
