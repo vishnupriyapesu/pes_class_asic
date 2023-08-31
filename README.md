@@ -1865,20 +1865,20 @@ here we observe there is no flop.
 <details>
 <summary>Sequential optimizations for unused outputs</summary>
 	
-1) **counter_opt**
+1) **counter_opt**<br />
+	module counter_opt (input clk , input reset , output q);
+	reg [2:0] count;
+	assign q = count[0];
+	always @(posedge clk ,posedge reset)
+	begin
+		if(reset)
+			count <= 3'b000;
+		else
+			count <= count + 1;
+	end
+	endmodule
 
-<br />
-	       module counter_opt (input clk , input reset , output q);
-	          reg [2:0] count;
-	          assign q = count[0];
-	          always @(posedge clk ,posedge reset)
-	          begin
-		     if(reset)
-			  count <= 3'b000;
-		     else
-			  count <= count + 1;
-	          end
-	          endmodule
+
 
 
 
