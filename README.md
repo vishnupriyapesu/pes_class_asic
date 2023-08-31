@@ -1638,6 +1638,18 @@ synthesis with **flatten**
 
 files are present in **dff*const**
 
+dff_const1<br />
+
+module dff_const1(input clk, input reset, output reg q);
+	always @(posedge clk, posedge reset)
+	begin
+		if(reset)
+			q <= 1'b0;
+		else
+			q <= 1'b1;
+	end
+endmodule
+
 
 ![Screenshot from 2023-08-31 05-41-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/82d11f90-80e7-4084-9811-358bce5a156e)
 
