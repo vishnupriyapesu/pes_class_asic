@@ -1654,6 +1654,22 @@ files are present in **dff*const**
 
 
 
+synthesis:
+
+
+**dfflibmap -liberty /path** command is going to tell what liberary it has to use
+
+![Screenshot from 2023-08-31 06-14-09](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/96df8b61-4531-4ec7-a473-319c1f8a481d)
+
+here  while printing the statistics it has infered a dff
+
+
+![Screenshot from 2023-08-31 06-07-57](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e71f1a5a-4971-4646-a427-73fd8ef9e1fb)
+
+> here the 2nd standard cell liberary is expecting reset to be low but we have active high  so the tool is infering the inverter
+
+
+
 
 ![Screenshot from 2023-08-31 05-53-51](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a3c4993b-fed1-444c-9f79-e2b299de3341)
 
@@ -1668,17 +1684,24 @@ files are present in **dff*const**
 
 ![Screenshot from 2023-08-31 05-59-00](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/3e40a9c5-9648-425c-a750-ad344fe27012)
 
-> we can observe value of Q is 1 irrespective of clock and rese
-
-
-**dfflibmap -liberty /path** command is going to tell what liberary it has to use
+> we can observe value of Q is 1 irrespective of clock and reset
 
 synthesis:
 
 
-![Screenshot from 2023-08-31 06-07-57](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e71f1a5a-4971-4646-a427-73fd8ef9e1fb)
 
-> here the 2nd standard cell liberary is expecting reset to be low but we have active high  so the tool is infering the inverter
+![Screenshot from 2023-08-31 06-18-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c1171e07-4420-451f-928e-6ce1f2082835)
+
+
+here  while printing the statistics it has not infered a dff since Q value will change with respesct to reset or clock
+
+
+
+
+![Screenshot from 2023-08-31 06-17-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f4f734e2-3578-4b87-b6a9-70e2c0741b0d)
+
+here we observe there is no flop.
+
 
 
 
