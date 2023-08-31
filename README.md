@@ -1633,7 +1633,62 @@ synthesis with **flatten**
 </details>
 
 <details>
-<summary>Sequential Logic Optimization with examples</summary>
+<summary>Lab-Sequential Logic Optimization with examples</summary>
+
+files are present in **dff*const**
+
+
+![Screenshot from 2023-08-31 05-41-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/82d11f90-80e7-4084-9811-358bce5a156e)
+
+
+> up on reset Q is 0 and else Q is 1
+
+
+
+>removal of reset doesnot mean that that Q is going to change Q will wait for next clock edge
+
+
+![Screenshot from 2023-08-31 05-52-14](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/8c5806a7-83bf-4526-8181-cb98be9e0451)
+
+> we canobserve that Q is waiting for nexst clock edge
+
+
+
+
+![Screenshot from 2023-08-31 05-53-51](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a3c4993b-fed1-444c-9f79-e2b299de3341)
+
+
+
+> flop which is have set
+
+> here if there is reset instead of set it acts as set and changes the value of Q
+
+> even if we remove the rest Q value continues to be in 1 and at the edge of the it continues to be in 1 sice d is 1
+
+
+![Screenshot from 2023-08-31 05-59-00](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/3e40a9c5-9648-425c-a750-ad344fe27012)
+
+> we can observe value of Q is 1 irrespective of clock and rese
+
+
+**dfflibmap -liberty /path** command is going to tell what liberary it has to use
+
+synthesis:
+
+
+![Screenshot from 2023-08-31 06-07-57](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/e71f1a5a-4971-4646-a427-73fd8ef9e1fb)
+
+> here the 2nd standard cell liberary is expecting reset to be low but we have active high  so the tool is infering the inverter
+
+
+
+
+
+
+
+
+
+
 
 
 
