@@ -1637,7 +1637,7 @@ synthesis with **flatten**
 
 files are present in **dff*const**
 
-**dff_const1**<br />
+1) **dff_const1**<br />
 
          module dff_const1(input clk, input reset, output reg q);
 	         always @(posedge clk, posedge reset)
@@ -1648,6 +1648,8 @@ files are present in **dff*const**
 			     q <= 1'b1;
 	         end
          endmodule
+
+ **simulation:**
 
 
 ![Screenshot from 2023-08-31 05-41-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/82d11f90-80e7-4084-9811-358bce5a156e)
@@ -1666,7 +1668,7 @@ files are present in **dff*const**
 
 
 
-synthesis:
+**synthesis:**
 
 
 **dfflibmap -liberty /path** command is going to tell what liberary it has to use
@@ -1680,7 +1682,7 @@ here  while printing the statistics it has infered a dff
 
 > here the 2nd standard cell liberary is expecting reset to be low but we have active high  so the tool is infering the inverter
 
-**dff_const2**<br />
+2) **dff_const2**<br />
 
               module dff_const2(input clk, input reset, output reg q);
 	              always @(posedge clk, posedge reset)
@@ -1691,6 +1693,9 @@ here  while printing the statistics it has infered a dff
 			         q <= 1'b1;
 	               end
                endmodule
+
+
+**simulation**:
 
 
 ![Screenshot from 2023-08-31 05-53-51](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a3c4993b-fed1-444c-9f79-e2b299de3341)
@@ -1708,7 +1713,7 @@ here  while printing the statistics it has infered a dff
 
 > we can observe value of Q is 1 irrespective of clock and reset
 
-synthesis:
+**synthesis:**
 
 
 
@@ -1726,9 +1731,47 @@ here we observe there is no flop.
 
 
 
+3) **dff_const3**<br />
+
+	module dff_const3(input clk, input reset, output reg q);
+	reg q1;
+
+	always @(posedge clk, posedge reset)
+	begin
+		if(reset)
+		begin
+			q <= 1'b1;
+			q1 <= 1'b0;
+		end
+		else
+		begin
+			q1 <= 1'b1;
+			q <= q1;
+		end
+	end
+	endmodule
+
+
+**simulaton**
+
+
+![Screenshot from 2023-08-31 06-39-42](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5f994540-8287-4350-8d92-494e0fda7079)
+
+ 
+
+![Screenshot from 2023-08-31 06-32-29](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7376c5ef-aa9e-4832-bba6-8b999b27755f)
+
+
+**synthesis**
+
+
+![Screenshot from 2023-08-31 06-34-53](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0043992b-94af-430c-bd2d-17a91ed5e6ec)
 
 
 
+
+
+![Screenshot from 2023-08-31 06-34-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7cde2817-61fe-47a6-841e-c675c6b232f8)
 
 
 
