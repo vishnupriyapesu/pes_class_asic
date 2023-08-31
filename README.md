@@ -1752,6 +1752,10 @@ here we observe there is no flop.
 	endmodule
 
 
+> up on reset Q there are two clock both are getting same clocks and reset
+
+
+
 **simulaton**
 
 
@@ -1774,8 +1778,33 @@ here we observe there is no flop.
 ![Screenshot from 2023-08-31 06-34-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7cde2817-61fe-47a6-841e-c675c6b232f8)
 
 
+4) **dff_const3**<br />
+	module dff_const4(input clk, input reset, output reg q);
+	reg q1;
+
+	always @(posedge clk, posedge reset)
+	begin
+		if(reset)
+		begin
+			q <= 1'b1;
+			q1 <= 1'b1;
+		end
+	else
+		begin
+			q1 <= 1'b1;
+			q <= q1;
+		end
+	end
+	endmodule
 
 
+
+
+
+
+**simulation**
+
+![Screenshot from 2023-08-31 19-53-48](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a83a7ec2-6613-48a7-ae4a-40b8b46790f1)
 
 
 
