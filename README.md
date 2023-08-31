@@ -1863,7 +1863,7 @@ here we observe there is no flop.
 </details>
 
 <details>
-<summary>LSequential optimizations for unused outputs</summary>
+<summary>Sequential optimizations for unused outputs</summary>
 
 1)**counter_opt**<br />
 	module counter_opt (input clk , input reset , output q);
