@@ -1879,6 +1879,11 @@ here we observe there is no flop.
 	endmodule
 
 
+> there is only one flop even it is 3 bit counter
+
+> any logic which is not resulting in any realtionship with primary output  will be optimized
+
+
 
 
 
