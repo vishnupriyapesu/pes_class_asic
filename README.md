@@ -149,6 +149,7 @@ We wrote a C program for calculating the sum from 1 to n using a text editor
 When we use -O1 optimisation, we can see that the number of instructions have been reduced to 12
 
 
+
 ![Screenshot from 2023-08-21 19-23-35](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/017f42ec-9988-4e57-8e84-d959c502e323)
 
 
