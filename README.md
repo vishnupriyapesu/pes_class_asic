@@ -1759,7 +1759,6 @@ here we observe there is no flop.
 **simulaton**
 
 
-![Screenshot from 2023-08-31 06-39-42](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5f994540-8287-4350-8d92-494e0fda7079)
 
  
 
@@ -1767,6 +1766,9 @@ here we observe there is no flop.
 
 
 **synthesis**
+
+![Screenshot from 2023-08-31 06-39-42](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5f994540-8287-4350-8d92-494e0fda7079)
+
 
 
 ![Screenshot from 2023-08-31 06-34-53](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0043992b-94af-430c-bd2d-17a91ed5e6ec)
@@ -1806,6 +1808,79 @@ here we observe there is no flop.
 
 ![Screenshot from 2023-08-31 19-53-48](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a83a7ec2-6613-48a7-ae4a-40b8b46790f1)
 
+
+**synthesis**
+
+
+![Screenshot from 2023-08-31 20-01-38](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/43a0d41b-1beb-4750-8270-105e225c02d4)
+
+
+![Screenshot from 2023-08-31 20-02-19](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/d1ce1ee3-8103-42a3-8b29-add13dbf04fa)
+
+
+5) **dff_const5.v**<br />
+	module dff_const5(input clk, input reset, output reg q);
+	reg q1;
+	always @(posedge clk, posedge reset)
+		begin
+			if(reset)
+			begin
+				q <= 1'b0;
+				q1 <= 1'b0;
+			end
+		else
+			begin
+				q1 <= 1'b1;
+				q <= q1;
+			end
+		end
+	endmodule
+
+
+**simulatiom**
+
+
+
+![Screenshot from 2023-08-31 20-05-55](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5e372c9a-98bd-4fb5-b2a3-3a05cf28897b)
+
+**synthesis**
+
+
+
+![Screenshot from 2023-08-31 20-07-36](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/faebc123-27b1-49b1-a20c-38bda91c74d4)
+
+
+
+![Screenshot from 2023-08-31 20-09-00](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/68a664fd-5155-462e-a991-3ed8d6bac950)
+
+
+
+
+![Screenshot from 2023-08-31 20-08-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/9bc67241-a16f-4732-9280-5250d9574b0e)
+
+
+
+</details>
+
+<details>
+<summary>LSequential optimizations for unused outputs</summary>
+
+1)**counter_opt**<br />
+	module counter_opt (input clk , input reset , output q);
+	reg [2:0] count;
+	assign q = count[0];
+	always @(posedge clk ,posedge reset)
+	begin
+		if(reset)
+			count <= 3'b000;
+		else
+			count <= count + 1;
+	end
+	endmodule
+
+
+
+ 
 
 
 
