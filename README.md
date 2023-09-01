@@ -1883,12 +1883,38 @@ here we observe there is no flop.
 
 > there is only one flop even it is 3 bit counter
 
+> only one output is used and other two are unused means there is no dependency of 3rd output on uther two outputs
+
 > any logic which is not resulting in any realtionship with primary output  will be optimized
 
 
+**simulation**
 
 
 
+![Screenshot from 2023-09-01 10-36-24](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/601848d7-7c62-4195-ab8a-1705290ab01b)
+
+
+
+**synthesis**
+
+
+![Screenshot from 2023-09-01 10-39-48](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5d39df39-508f-4343-bd13-73cfe3cf725f)
+
+
+![Screenshot from 2023-09-01 10-41-19](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/26b63f66-53b0-4524-b560-693c23facfee)
+
+
+
+
+
+
+
+
+
+
+
+![Screenshot from 2023-08-31 20-08-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c9411c31-e56b-40ed-9638-1582d55dba6b)
 
 
 
