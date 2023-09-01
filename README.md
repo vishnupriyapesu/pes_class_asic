@@ -1888,6 +1888,7 @@ here we observe there is no flop.
 > any logic which is not resulting in any realtionship with primary output  will be optimized
 
 
+
 **simulation**
 
 
