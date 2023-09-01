@@ -1899,23 +1899,15 @@ here we observe there is no flop.
 **synthesis**
 
 
-![Screenshot from 2023-09-01 10-39-48](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5d39df39-508f-4343-bd13-73cfe3cf725f)
+![Screenshot from 2023-09-01 10-45-10](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/3e0dbf7a-cc45-45c6-b986-72558340b627)
 
 
-![Screenshot from 2023-09-01 10-41-19](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/26b63f66-53b0-4524-b560-693c23facfee)
-
-
-
+![Screenshot from 2023-09-01 10-45-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/025ac57b-2ea5-4376-bf1a-760068cb2f86)
 
 
 
 
-
-
-
-
-![Screenshot from 2023-08-31 20-08-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c9411c31-e56b-40ed-9638-1582d55dba6b)
-
+![Screenshot from 2023-09-01 10-45-31](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/385321a8-63c6-4f65-adad-059cf3d3f000)
 
 
  
