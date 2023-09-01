@@ -1909,6 +1909,10 @@ here we observe there is no flop.
 
 ![Screenshot from 2023-09-01 10-45-31](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/385321a8-63c6-4f65-adad-059cf3d3f000)
 
+> here we can observe that q is not of Q
+
+> unused bits are completely optimized  because they are not connected to any primary output.
+
 
  
 
