@@ -1780,7 +1780,7 @@ here we observe there is no flop.
 ![Screenshot from 2023-08-31 06-34-41](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7cde2817-61fe-47a6-841e-c675c6b232f8)
 
 
-4) **dff_const3**<br />
+4) **dff_const4**<br />
 	module dff_const4(input clk, input reset, output reg q);
 	reg q1;
 
@@ -1915,7 +1915,19 @@ here we observe there is no flop.
 > unused bits are completely optimized  because they are not connected to any primary output.
 
 
+2)
+![Screenshot from 2023-09-01 10-56-12](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/53c1b5cc-f693-4ed5-aac5-4a0d52f36edf)
+
+
+> here we can observe that it infered 3 dff 
+
+
  
+![Screenshot from 2023-09-01 10-57-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0f26031a-1e0e-4e61-8b01-f99569bb9b93)
+
+![Screenshot from 2023-09-01 10-56-54](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/3fe6f91c-998e-4f71-933f-f374f7321ad7)
+
+
 
 
 
