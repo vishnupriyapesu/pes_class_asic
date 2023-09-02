@@ -2224,12 +2224,28 @@ this is going show the simulation synthesis mismatch
 
 
 -- here clearly we can see it is not working like a mux,when select is low i0 should be selected but there is no activity on select.only when select is changing the value of y is changing.
+
+
 -- the activities on i0 is not sensed by the alway block
--- it is not exactlymux ,it is shwing as id it is mux
+
+
+
+-- it is not exactly mux ,it is shwing as id it is mux
+
+
+![Untitled16](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/d642a3ba-abd4-48fb-93fa-9948955853f6)
+
+
+> when select zero is the activity of i0 is reflecting on y 
 
 
 
 
+![Untitled17](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/c3d778ab-a171-47c3-aa84-20f79ec3dbc1)
 
+
+> when select zero is the activity of i0 is  not reflecting on y
+
+**therefore this is called as synthesis simulation mismatch due missing sensitivity list**
 
 
