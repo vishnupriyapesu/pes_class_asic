@@ -1957,7 +1957,44 @@ here we observe there is no flop.
 <summary>GLS, Synthesis-Simulation mismatch and Blocking, Non-blocking statements</summary>
 
 
+### GLS conceptd and flow using Iverilog
 
+**GLS - Gate Level Simulation**
+
+**What is GLS?**
+--> Running the test bench with netlist as design under test
+
+
+> netlist is logically same as RTL code,input and output in netlist and RTL code are same therefore nerlist will fit in the testbench
+
+>now we will plug the nelist in place of RTL file and run the simulation
+
+
+
+**why GLS?**
+
+>  verify the logical correctness of gesign after synthesis
+
+> Ensuring the timing of the design is met
+
+--> for this GLS needs to be run with delay annotation.
+
+**GLS using Iverilog**
+
+**NOTE**
+if the Gate Level Models are delay annotated ,then we can use  GLS for timimg validation
+
+
+the current GLS model what we are using are basic(functional) and not timing aware therefore we are not using the timing validation
+
+
+
+why functionality of netlist if the netlist is true representation of RTL,**why validation of functionality of netlist?**
+
+--> here comes the concept called **Synthesis Ans Simulation Mismatch**
+
+
+### Synthesis Ans Simulation Mismatch
 
 
 
