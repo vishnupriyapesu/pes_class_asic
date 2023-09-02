@@ -1866,19 +1866,18 @@ here we observe there is no flop.
 <summary>Sequential optimizations for unused outputs</summary>
 	
 1) **counter_opt**<br />
-	         module counter_opt (input clk , input reset , output q);
-	         reg [2:0] count;
-	         assign q = {count[2:0]==3'b100};
-	         always @(posedge clk ,posedge reset)
-	         begin
-	         if(reset)
-		         count <= 3'b000;
-                 else
-		         count <= count + 1;
-	         end
-                 endmodule
 
-
+	module counter_opt (input clk , input reset , output q);
+	reg [2:0] count;
+	assign q = count[0];
+	always @(posedge clk ,posedge reset)
+	begin
+		if(reset)
+			count <= 3'b000;
+		else
+			count <= count + 1;
+	end
+	endmodule
 
 > there is only one flop even it is 3 bit counter
 
@@ -1914,7 +1913,18 @@ here we observe there is no flop.
 > unused bits are completely optimized  because they are not connected to any primary output.
 
 
-2)
+2) <br />
+module counter_opt (input clk , input reset , output q);
+	reg [2:0] count;
+	assign q = {count[2:0]==3'b100};
+	always @(posedge clk ,posedge reset)
+	begin
+	if(reset)
+		count <= 3'b000;
+	else
+		count <= count + 1;
+	end
+endmodule
 ![Screenshot from 2023-09-01 10-56-12](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/53c1b5cc-f693-4ed5-aac5-4a0d52f36edf)
 
 
