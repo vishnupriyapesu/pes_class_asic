@@ -1948,5 +1948,16 @@ here we observe there is no flop.
 
 
 
+</details>
+
+
+## Day-4-GLS,blocking vs non-blocking and Synthesis-Simulation mismatch
+
+<details> 
+<summary>GLS, Synthesis-Simulation mismatch and Blocking, Non-blocking statements</summary>
+
+
+
+
 
 
