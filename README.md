@@ -2155,9 +2155,15 @@ old value of q is used in simulation
 
   **here in both cases the synthesis gives same circuit but different simulatin behaviour**
 
+
   
 
+  
 
+</details>	
+	
+ <details>
+ <summary>labs - GLS and Synthesis-Simulation Mismatch</summary>
   
 
   
