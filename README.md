@@ -2035,6 +2035,22 @@ Example:<br />
 
 
    **this what we call as missing sensitivity list**
+
+
+
+   ### Blocking and Non blocking statements in verilog
+
+Blocking and Non blocking statements are inside the always block 
+
+> Blocking (=)
+
+-- executes the statements in the order it is written 
+
+
+-- so the first statement is evaluated beforee the second statement
+
+   
+   
 			
 
 
