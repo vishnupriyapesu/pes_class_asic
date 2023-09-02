@@ -1957,7 +1957,7 @@ here we observe there is no flop.
 <summary>GLS, Synthesis-Simulation mismatch and Blocking, Non-blocking statements</summary>
 
 
-### GLS conceptd and flow using Iverilog
+### GLS concept and flow using Iverilog
 
 **GLS - Gate Level Simulation**
 
@@ -1969,7 +1969,7 @@ here we observe there is no flop.
 
 > netlist is logically same as RTL code,input and output in netlist and RTL code are same therefore nerlist will fit in the testbench
 
->now we will plug the nelist in place of RTL file and run the simulation
+> now we will plug the nelist in place of RTL file and run the simulation
 
 
 
@@ -1983,7 +1983,12 @@ here we observe there is no flop.
 
 **GLS using Iverilog**
 
+
+![Untitled15](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/59dc0a1c-bdef-4dca-989e-e8497e0f988a)
+
+
 **NOTE**
+
 
 
 if the Gate Level Models are delay annotated ,then we can use  GLS for timimg validation
