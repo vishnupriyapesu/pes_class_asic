@@ -2257,3 +2257,15 @@ this is going show the simulation synthesis mismatch
 **therefore this is called as synthesis simulation mismatch due missing sensitivity list**
 
 
+</details>	
+	
+ <details>
+ <summary>labs-GLS and Synthesis-Simulation Mismatch for blocking statement</summary>
+
+ 
+
+
+
+
+
+
