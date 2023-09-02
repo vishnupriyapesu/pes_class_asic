@@ -434,9 +434,14 @@ chmod 777 rv32im.sh
 
 
 
+
 ![Screenshot from 2023-08-22 00-09-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a5778924-b954-4f9e-bee3-de0caf3a20ac
 
+</details>
 
+<details>
+	<summary> RTL design using Verilog with SKY130 Technology  </summary>
+</details>
 This github repository summarizes the progress made in the ASIC class. Quick links:
 
 - [Installation](#Installation)
