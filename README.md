@@ -2267,10 +2267,48 @@ this is going show the simulation synthesis mismatch
  <details>
  <summary>labs-GLS and Synthesis-Simulation Mismatch for blocking statement</summary>
 
+
+
+ **example1**
+ <br />
+		 module blocking_caveat (input a , input b , input  c, output reg d); 
+		reg x;
+		always @ (*)
+			begin
+			d = x & c;
+			x = a | b;
+		end
+		endmodule
+
+
  
+  **simulation**
+
+  ![Screenshot from 2023-09-02 16-08-42](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/abd721f2-07a8-4bd1-b0e5-66668aa5b5d0)
+
+
+  ![Screenshot from 2023-09-02 16-14-25](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/43adb1a7-631b-420d-96d0-0635913582a3)
+
+
+
+  > here a is low b is low and  a|b will be low and **AND** it with c output should be zero ,but in this case  clearly it is taking past value
+
+
+**synthesis**
+
+
+![Screenshot from 2023-09-02 16-27-14](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/936390c9-ce7b-442a-9f71-191912c32527)
+
+
+**netlist simulation**
+
+
+
+![Untitled18](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0e734874-a187-4c49-b783-e4e9d2c1887b)
 
 
 
 
+![Untitled19](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f589f6ce-c6e6-4bd5-a65d-a276584fd370)
 
 
