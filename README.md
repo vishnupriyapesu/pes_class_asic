@@ -2236,6 +2236,11 @@ this is going show the simulation synthesis mismatch
 
 
 **synthesis**
+
+
+![Screenshot from 2023-09-02 15-37-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/40b20742-ab13-45ee-87d1-2e5d13e29ea4)
+
+
 ![Screenshot from 2023-09-02 15-54-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7aaac1bb-e20d-4e69-83c8-05ac1373e8ed)
 
  **netlist simulation**
