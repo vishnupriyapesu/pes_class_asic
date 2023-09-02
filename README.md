@@ -21,9 +21,13 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 
 > Routing
 
+</details>
+
+ <details>
+ <summary> installation </summary>
 
 
-   **INSTALLATION**
+
 
 
    https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
@@ -39,9 +43,19 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
     
 > ./run.sh
 
-**TABLE OF CONTENTS**
+</details>
+
+ 
+
+
+
+ <details>
+ <summary> day1 </summary>
+
 
 **DAY 1**
+
+
 
 **Introduction to RISCV ISA and GNU Compiler Toolchain**
 
@@ -49,8 +63,6 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 
 **Introduction to Basic Keywords**
 
-
-**Introduction**
 
 
 
@@ -257,6 +269,11 @@ We wrote a C program that shows the maximum and minimum values of 64bit signed n
 
 
 ![Screenshot from 2023-08-21 19-49-12](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7150533a-ef8f-4219-90da-5d4c4faa8e1b)
+
+</details>
+
+ <details>
+ <summary> day2 </summary>
 
 
 **Application Binary Interface**
@@ -2048,6 +2065,8 @@ Blocking and Non blocking statements are inside the always block
 
 
 -- so the first statement is evaluated beforee the second statement
+
+
 
    
    
