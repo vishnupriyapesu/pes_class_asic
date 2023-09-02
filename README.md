@@ -2307,7 +2307,13 @@ this is going show the simulation synthesis mismatch
 ![Untitled18](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0e734874-a187-4c49-b783-e4e9d2c1887b)
 
 
->  when a is low b is low the ouput is high because it is taking past past value of a|b
+>  when a is low b is low the ouput is high because it is taking past  value
+
+
+
+![Screenshot from 2023-09-02 16-52-50](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/cab2d0d8-3078-44e9-a2c1-1df1385c53bc)
+
+
 
 ![Untitled19](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f589f6ce-c6e6-4bd5-a65d-a276584fd370)
 
