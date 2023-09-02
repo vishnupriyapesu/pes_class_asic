@@ -1867,17 +1867,16 @@ here we observe there is no flop.
 	
 1) **counter_opt**<br />
 	         module counter_opt (input clk , input reset , output q);
-	         reg [2:0] count;
-	         assign q = count[0];
-	         always @(posedge clk ,posedge reset)
-	             begin
-		          if(reset)
-			       count <= 3'b000;
-		          else
-			       count <= count + 1;
-	             end
-	         endmodule
-
+	reg [2:0] count;
+	assign q = {count[2:0]==3'b100};
+	always @(posedge clk ,posedge reset)
+	begin
+	if(reset)
+		count <= 3'b000;
+	else
+		count <= count + 1;
+	end
+endmodule
 
 
 
@@ -1926,6 +1925,7 @@ here we observe there is no flop.
 ![Screenshot from 2023-09-01 10-57-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0f26031a-1e0e-4e61-8b01-f99569bb9b93)
 
 ![Screenshot from 2023-09-01 10-56-54](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/3fe6f91c-998e-4f71-933f-f374f7321ad7)
+
 
 
 
