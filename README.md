@@ -1604,17 +1604,17 @@ synthesis with **flatten**:
 
 6) **multiple_module_opt2**<br />
 
-                     module sub_module(input a , input b , output y);
-	                     assign y = a & b;
-                     endmodule
-
-                     module multiple_module_opt2(input a , input b , input c , input d , output y);
-	                    wire n1,n2,n3;
-	                    sub_module U1 (.a(a) , .b(1'b0) , .y(n1));
-	                    sub_module U2 (.a(b), .b(c) , .y(n2));
-	                    sub_module U3 (.a(n2), .b(d) , .y(n3));
-	                    sub_module U4 (.a(n3), .b(n1) , .y(y));
-                     endmodule
+		                     module sub_module(input a , input b , output y);
+			                     assign y = a & b;
+		                     endmodule
+		
+		                     module multiple_module_opt2(input a , input b , input c , input d , output y);
+			                    wire n1,n2,n3;
+			                    sub_module U1 (.a(a) , .b(1'b0) , .y(n1));
+			                    sub_module U2 (.a(b), .b(c) , .y(n2));
+			                    sub_module U3 (.a(n2), .b(d) , .y(n3));
+			                    sub_module U4 (.a(n3), .b(n1) , .y(y));
+		                     endmodule
 
 
 synthesis without **flatten**
@@ -1638,16 +1638,16 @@ synthesis with **flatten**
 files are present in **dff*const**
 
 1) **dff_const1**<br />
-
-         module dff_const1(input clk, input reset, output reg q);
-	         always @(posedge clk, posedge reset)
-	         begin
-		     if(reset)
-		 	     q <= 1'b0;
-		     else
-			     q <= 1'b1;
-	         end
-         endmodule
+		
+		         module dff_const1(input clk, input reset, output reg q);
+			         always @(posedge clk, posedge reset)
+			         begin
+				     if(reset)
+				 	     q <= 1'b0;
+				     else
+					     q <= 1'b1;
+			         end
+		         endmodule
 
  **simulation:**
 
@@ -1684,15 +1684,15 @@ here  while printing the statistics it has infered a dff
 
 2) **dff_const2**<br />
 
-              module dff_const2(input clk, input reset, output reg q);
-	              always @(posedge clk, posedge reset)
-	              begin
-		         if(reset)
-			         q <= 1'b1;
-		         else
-			         q <= 1'b1;
-	               end
-               endmodule
+		              module dff_const2(input clk, input reset, output reg q);
+			              always @(posedge clk, posedge reset)
+			              begin
+				         if(reset)
+					         q <= 1'b1;
+				         else
+					         q <= 1'b1;
+			               end
+		               endmodule
 
 
 **simulation**:
@@ -1733,23 +1733,23 @@ here we observe there is no flop.
 
 3) **dff_const3**<br />
 
-	module dff_const3(input clk, input reset, output reg q);
-	reg q1;
-
-	always @(posedge clk, posedge reset)
-	begin
-		if(reset)
-		begin
-			q <= 1'b1;
-			q1 <= 1'b0;
-		end
-		else
-		begin
-			q1 <= 1'b1;
-			q <= q1;
-		end
-	end
-	endmodule
+			module dff_const3(input clk, input reset, output reg q);
+			reg q1;
+		
+			always @(posedge clk, posedge reset)
+			begin
+				if(reset)
+				begin
+					q <= 1'b1;
+					q1 <= 1'b0;
+				end
+				else
+				begin
+					q1 <= 1'b1;
+					q <= q1;
+				end
+			end
+			endmodule
 
 
 > up on reset Q there are two clock both are getting same clocks and reset
@@ -1781,23 +1781,23 @@ here we observe there is no flop.
 
 
 4) **dff_const4**<br />
-	module dff_const4(input clk, input reset, output reg q);
-	reg q1;
-
-	always @(posedge clk, posedge reset)
-	begin
-		if(reset)
-		begin
-			q <= 1'b1;
-			q1 <= 1'b1;
-		end
-	else
-		begin
-			q1 <= 1'b1;
-			q <= q1;
-		end
-	end
-	endmodule
+			module dff_const4(input clk, input reset, output reg q);
+			reg q1;
+		
+			always @(posedge clk, posedge reset)
+			begin
+				if(reset)
+				begin
+					q <= 1'b1;
+					q1 <= 1'b1;
+				end
+			else
+				begin
+					q1 <= 1'b1;
+					q <= q1;
+				end
+			end
+			endmodule
 
 
 
@@ -1819,22 +1819,22 @@ here we observe there is no flop.
 
 
 5) **dff_const5.v**<br />
-	module dff_const5(input clk, input reset, output reg q);
-	reg q1;
-	always @(posedge clk, posedge reset)
-		begin
-			if(reset)
-			begin
-				q <= 1'b0;
-				q1 <= 1'b0;
-			end
-		else
-			begin
-				q1 <= 1'b1;
-				q <= q1;
-			end
-		end
-	endmodule
+			module dff_const5(input clk, input reset, output reg q);
+			reg q1;
+			always @(posedge clk, posedge reset)
+				begin
+					if(reset)
+					begin
+						q <= 1'b0;
+						q1 <= 1'b0;
+					end
+				else
+					begin
+						q1 <= 1'b1;
+						q <= q1;
+					end
+				end
+			endmodule
 
 
 **simulatiom**
@@ -1866,18 +1866,18 @@ here we observe there is no flop.
 <summary>Sequential optimizations for unused outputs</summary>
 	
 1) **counter_opt**<br />
-
-	module counter_opt (input clk , input reset , output q);
-	reg [2:0] count;
-	assign q = count[0];
-	always @(posedge clk ,posedge reset)
-	begin
-		if(reset)
-			count <= 3'b000;
-		else
-			count <= count + 1;
-	end
-	endmodule
+			
+				module counter_opt (input clk , input reset , output q);
+				reg [2:0] count;
+				assign q = count[0];
+				always @(posedge clk ,posedge reset)
+				begin
+					if(reset)
+						count <= 3'b000;
+					else
+						count <= count + 1;
+				end
+				endmodule
 
 > there is only one flop even it is 3 bit counter
 
@@ -1915,18 +1915,18 @@ here we observe there is no flop.
 
 2) **module counter_opt2**<br />
 
-			module counter_opt (input clk , input reset , output q);
-					reg [2:0] count;
-					assign q = {count[2:0]==3'b100};
-					always @(posedge clk ,posedge reset)
-					begin
-					if(reset)
-						count <= 3'b000;
-					else
-						count <= count + 1;
-					end
-			endmodule
-			
+					module counter_opt (input clk , input reset , output q);
+							reg [2:0] count;
+							assign q = {count[2:0]==3'b100};
+							always @(posedge clk ,posedge reset)
+							begin
+							if(reset)
+								count <= 3'b000;
+							else
+								count <= count + 1;
+							end
+					endmodule
+					
 
 
 ![Screenshot from 2023-09-01 10-56-12](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/53c1b5cc-f693-4ed5-aac5-4a0d52f36edf)
