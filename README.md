@@ -2018,7 +2018,7 @@ why there is mismatch of synthesis and simulation
 Example:<br />
 
 		module mux(
-		input i0,input i1,input s3el,ouput reg y);
+		input i0,input i1,input sel,ouput reg y);
 		always@(sel)
 		begin
 		if(sel)
@@ -2034,7 +2034,7 @@ Example:<br />
   the RTL looks like latch 
 
 
-  > this what we call as missing sensitivity list
+   **this what we call as missing sensitivity list**
 			
 
 
