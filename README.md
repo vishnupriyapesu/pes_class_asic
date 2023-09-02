@@ -1962,6 +1962,8 @@ here we observe there is no flop.
 **GLS - Gate Level Simulation**
 
 **What is GLS?**
+
+
 --> Running the test bench with netlist as design under test
 
 
@@ -1982,14 +1984,15 @@ here we observe there is no flop.
 **GLS using Iverilog**
 
 **NOTE**
+
+
 if the Gate Level Models are delay annotated ,then we can use  GLS for timimg validation
 
 
 the current GLS model what we are using are basic(functional) and not timing aware therefore we are not using the timing validation
 
 
-
-why functionality of netlist if the netlist is true representation of RTL,**why validation of functionality of netlist?**
+ if the netlist is true representation of RTL,**why validation of functionality of netlist?**
 
 --> here comes the concept called **Synthesis Ans Simulation Mismatch**
 
