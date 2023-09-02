@@ -2163,7 +2163,7 @@ old value of q is used in simulation
 </details>	
 	
  <details>
- <summary>labs - GLS and Synthesis-Simulation Mismatch</summary>
+ <summary>labs-GLS and Synthesis-Simulation Mismatch</summary>
 
 **example1**
  <br />
@@ -2172,14 +2172,14 @@ old value of q is used in simulation
 			assign y = sel?i1:i0;
 		endmodule
 		  
-simulation
+**simulation**
 
-  
 
   ![Screenshot from 2023-09-02 12-57-27](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/b2d503c1-1c12-48c7-9b6d-f2ef8da4bce4)
 
-synthesis
+  
 
+**synthesis**
 
 
 
@@ -2196,6 +2196,8 @@ synthesis
 
 
 ![Screenshot from 2023-09-02 13-26-32](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f8666525-6ab5-4a2c-a698-1accfb3c4343)
+
+
 
 
 
