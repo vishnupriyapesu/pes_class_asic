@@ -2118,6 +2118,7 @@ here behaviour is like c programming
 		endmodule
 
   here as we know executes the statements in the order it is written ,in the else part q0 is having value of d and q is having the value qo bot q0 since q0 is alreadt having the value assigned     and it provides only one flop. here comes the problem
+  therefore, always use non blocking for writing sequential circuit
 
   
 
