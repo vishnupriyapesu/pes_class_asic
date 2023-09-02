@@ -2164,20 +2164,33 @@ old value of q is used in simulation
 	
  <details>
  <summary>labs - GLS and Synthesis-Simulation Mismatch</summary>
-  
+
+**example1**
+ <br />
+
+		 module ternary_operator_mux (input i0 , input i1 , input sel , output y);
+			assign y = sel?i1:i0;
+		endmodule
+		  
+simulation
 
   
 
-  
+  ![Screenshot from 2023-09-02 12-57-27](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/b2d503c1-1c12-48c7-9b6d-f2ef8da4bce4)
+
+synthesis
 
 
 
 
+![Screenshot from 2023-09-02 12-59-01](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/74fa6344-ed5d-452c-9d86-5daa1b2595fa)
 
 
+
+ ![Screenshot from 2023-09-02 13-00-06](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/8565c016-c340-4b20-ae81-54415fce01af)
 
    
-   
-			
+![Screenshot from 2023-09-02 13-03-24](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7210b218-55b8-4997-a5da-1a222b0d222e)
+
 
 
