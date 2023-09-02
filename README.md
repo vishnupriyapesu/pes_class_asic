@@ -2073,8 +2073,30 @@ here behaviour is like c programming
 > **Non-blocking (<=)**
 
 
--- executes parallely .
+-- executes parallely .order doesnot matches
 -- executes all the RHS when always block is entered and assigns to LHS.
+
+
+**Caveats with Blocking Statements**
+<br />
+		module code (input clk,input reset,input d,output regd);
+		reg q0;
+		always@(posedge clk,posedge reset)
+		begin
+		if(reset)
+		begin
+		   q0=1'b0;
+		   q=1'b0;
+		end
+		else
+		begin
+		   q=q0
+		   q0=d;
+		end 
+		endmodule
+
+  
+
 
 
 
