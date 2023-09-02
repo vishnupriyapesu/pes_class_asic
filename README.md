@@ -440,9 +440,9 @@ chmod 777 rv32im.sh
 </details>
 
 <details>
-	<summary> RTL design using Verilog with SKY130 Technology  </summary>
-</details>
-This github repository summarizes the progress made in the ASIC class. Quick links:
+<summary> RTL design using Verilog with SKY130 Technology  </summary>
+
+**RTL design using Verilog with SKY130 Technology**
 
 - [Installation](#Installation)
 
@@ -461,10 +461,7 @@ This github repository summarizes the progress made in the ASIC class. Quick lin
 
 
 ## Installation
-<details>
- <summary> Summary </summary>
-	
-I installed the needed tools.
+
 
 </details>	
 	
