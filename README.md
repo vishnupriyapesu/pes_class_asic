@@ -2219,6 +2219,8 @@ this is going show the simulation synthesis mismatch
 			end
 		endmodule
 
+
+**simulation**
   
 ![Screenshot from 2023-09-02 15-29-13](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f83d7836-a802-46a8-8eac-fdd8a1dd0fed)
 
@@ -2233,6 +2235,12 @@ this is going show the simulation synthesis mismatch
 -- it is not exactly mux ,it is shwing as id it is mux
 
 
+**synthesis**
+![Screenshot from 2023-09-02 15-54-23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/7aaac1bb-e20d-4e69-83c8-05ac1373e8ed)
+
+ **netlist simulation**
+
+ 
 ![Untitled16](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/d642a3ba-abd4-48fb-93fa-9948955853f6)
 
 
