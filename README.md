@@ -2202,10 +2202,30 @@ old value of q is used in simulation
 
 
 
+**Example 2**
+this is going show the simulation synthesis mismatch
 
 
 
+<br />
 
+		module bad_mux (input i0 , input i1 , input sel , output reg y);
+			always @ (sel)
+			begin
+				if(sel)
+					y <= i1;
+				else 
+					y <= i0;
+			end
+		endmodule
+
+  
+![Screenshot from 2023-09-02 15-29-13](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f83d7836-a802-46a8-8eac-fdd8a1dd0fed)
+
+
+-- here clearly we can see it is not working like a mux,when select is low i0 should be selected but there is no activity on select.only when select is changing the value of y is changing.
+-- the activities on i0 is not sensed by the alway block
+-- it is not exactlymux ,it is shwing as id it is mux
 
 
 
