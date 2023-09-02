@@ -485,6 +485,9 @@ Below is the screenshot showing sucessful launch:
 
 ![Screenshot from 2023-08-27 12-53-36](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/5c3149ca-f742-4ace-8482-ed3054d3e8e1)
 
+</details>
+<details>
+<summary>Iverilog</summary>
 
  
 **Iverilog**
