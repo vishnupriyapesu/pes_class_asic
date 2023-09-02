@@ -2059,12 +2059,23 @@ Example:<br />
 
 Blocking and Non blocking statements are inside the always block 
 
-> Blocking (=)
+> **Blocking (=)**
 
 -- executes the statements in the order it is written 
 
 
 -- so the first statement is evaluated beforee the second statement
+
+here behaviour is like c programming
+
+> **Non-blocking (<=)**
+
+
+-- executes parallely .
+-- executes all the RHS when always block is entered and assigns to LHS.
+
+
+
 
 
 
