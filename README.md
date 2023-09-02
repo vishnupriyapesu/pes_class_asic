@@ -2004,5 +2004,37 @@ the current GLS model what we are using are basic(functional) and not timing awa
 
 ### Synthesis Ans Simulation Mismatch
 
+why there is mismatch of synthesis and simulation
+
+> missing sensitivity list
+
+> blocking vs Non blocking Assignments
+
+> Non standard verilog code
+
+
+**Missing Sensitivity**
+
+Example:<br />
+
+		module mux(
+		input i0,input i1,input s3el,ouput reg y);
+		always@(sel)
+		begin
+		if(sel)
+		       y=i1;
+		else
+		       y=i0;
+		end 
+		endmodule
+
+
+  here we can only when select is changing the output is changing.here when i1 and i0 is changing the output is not changing
+
+  the RTL looks like latch 
+
+
+  > this what we call as missing sensitivity list
+			
 
 
