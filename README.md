@@ -2095,6 +2095,31 @@ here behaviour is like c programming
 		end 
 		endmodule
 
+  this executes well! and it has two flops
+  but,
+
+  <br />
+
+               module code (input clk,input reset,input d,output regd);
+		reg q0;
+		always@(posedge clk,posedge reset)
+		begin
+		if(reset)
+		begin
+		   q0=1'b0;
+		   q=1'b0;
+		end
+		else
+		begin
+		   q0=d;
+		   q=q0;
+		end 
+		endmodule
+
+  here as we know executes the statements in the order it is written ,in the else part q0 is having value of d and q is having the value qo bot q0 since q0 is alreadt having the value assigned     and it provides only one flop. here comes the problem
+
+  
+
   
 
 
