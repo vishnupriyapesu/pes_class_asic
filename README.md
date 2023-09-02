@@ -2307,8 +2307,12 @@ this is going show the simulation synthesis mismatch
 ![Untitled18](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/0e734874-a187-4c49-b783-e4e9d2c1887b)
 
 
-
+>  when a is low b is low the ouput is high because it is taking past past value of a|b
 
 ![Untitled19](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/f589f6ce-c6e6-4bd5-a65d-a276584fd370)
+
+> when a is low b is low the ouput is low,because it is taking instantenous value
+
+**therefore this is called as synthesis simulation mismatch due to blocking statement**
 
 
