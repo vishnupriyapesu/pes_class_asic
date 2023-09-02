@@ -1925,6 +1925,8 @@ module counter_opt (input clk , input reset , output q);
 		count <= count + 1;
 	end
 endmodule
+
+
 ![Screenshot from 2023-09-01 10-56-12](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/53c1b5cc-f693-4ed5-aac5-4a0d52f36edf)
 
 
