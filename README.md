@@ -2057,7 +2057,7 @@ Example:<br />
 
 
 
-   ### Blocking and Non blocking statements in verilog
+**Blocking and Non blocking statements in verilog**
 
 Blocking and Non blocking statements are inside the always block 
 
@@ -2118,7 +2118,45 @@ here behaviour is like c programming
 		endmodule
 
   here as we know executes the statements in the order it is written ,in the else part q0 is having value of d and q is having the value qo bot q0 since q0 is alreadt having the value assigned     and it provides only one flop. here comes the problem
-  therefore, always use non blocking for writing sequential circuit
+  therefore, always use non blocking for writing sequential circuit because ,executes all the RHS when always block is entered and assigns to LHS.
+
+
+**Caveats with Blocking Statements**
+
+  this cause synthesis simulation mismatch
+
+  <br />
+  
+		module mux(
+		input i0,input i1,input sel,ouput reg y);
+		always@(*)
+		begin
+		       y=q0 & c;
+		       q0=a|b;
+		end 
+		endmodule
+
+old value of q is used in simulation
+  the statement **y=q0 & c** mimic delay or flop 
+
+  <br />
+
+                module mux(
+		input i0,input i1,input sel,ouput reg y);
+		always@(*)
+		begin
+		       y=q0 & c;
+		       q0=a|b;
+		end 
+		endmodule
+
+  latest value of q0 is used in simulation
+
+
+  **here in both cases the synthesis gives same circuit but different simulatin behaviour**
+
+
+  
 
   
 
