@@ -2098,6 +2098,7 @@ here behaviour is like c programming
   this executes well! and it has two flops
   but,
 
+
   <br />
 
                module code (input clk,input reset,input d,output regd);
