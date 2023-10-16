@@ -434,35 +434,6 @@ chmod 777 rv32im.sh
 </details>
 
 
-# Day-3 Digital Logic with TL-verilog and Marker chip
-
-<details>
- <summary>Introduction TO logic gates</summary>
-
- 
-**Logic gates**
-
-![Untitled20](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2fcfc404-57ac-4c7f-a17e-fa6cd2510064)
-
-
-
-**Combinational Circuit**
-
-![21](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1465b70e-5607-467e-b6bf-30f6de406f96)
-
-
-**Adder**
-
-![22](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/6f1026c3-22d0-4da9-9c2d-92e1390ecb87)
-
-
-**Boolean Operators**
-
-![23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/63dfca31-2e8f-4ea0-af8b-91c5d305f664)
-
-
-</details>
-	
 # RTL design using Verilog with SKY130 Technology
 
 <details>
