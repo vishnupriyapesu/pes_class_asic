@@ -46,24 +46,11 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 </details>
 
  
-
+# Introduction to RISC-V ISA and GNU complier toolchain
 
 
  <details>
- <summary> day1 </summary>
-
-
-**DAY 1**
-
-
-
-**Introduction to RISCV ISA and GNU Compiler Toolchain**
-
-
-
-**Introduction to Basic Keywords**
-
-
+ <summary>Introduction to Basic Keywords </summary>
 
 
 **ISA (Instruction Set Archhitecture)**
@@ -126,10 +113,12 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 
 The stack pointer is a register used by a program to keep track of the current position of the program's execution on the call stack.
 
+</details>
+
+<details>
+ <summary>ILabwork for RISCV Toolchain </summary>
 
 
-
-**Labwork for RISCV Toolchain**
 
 **C Program**
 
@@ -230,9 +219,11 @@ The contents of the registers can also be viewed.
 
     
     q : to quit the debug process
+</details>
 
+<details>
+ <summary>Integer Number Representation</summary>
 
-**Integer Number Representation**
 
 **Unsigned Numbers**
 
@@ -272,11 +263,10 @@ We wrote a C program that shows the maximum and minimum values of 64bit signed n
 
 </details>
 
+# Day-2 introduction to ABI and basix verification flow
  <details>
- <summary> day2 </summary>
+ <summary>Application binary intrerface</summary>
 
-
-**Application Binary Interface**
 
 
 **Introduction to ABI**
@@ -367,7 +357,11 @@ ABI names for registers serve as a standardized way to designate the purpose and
 
 ![Screenshot from 2023-08-21 23-36-17](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/387ba4f6-d71a-404c-9665-9c011dd69a27)
 
-**Labwork using ABI Function Calls**
+</details>
+
+<details>
+ <summary>Lab work using ABI function calls</summary>
+
 
 **Algorithm for C Program using ASM**
 
@@ -438,6 +432,9 @@ chmod 777 rv32im.sh
 ![Screenshot from 2023-08-22 00-09-56](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a5778924-b954-4f9e-bee3-de0caf3a20ac
 
 </details>
+
+
+
 
 <details>
 <summary> RTL design using Verilog with SKY130 Technology  </summary>
