@@ -433,11 +433,23 @@ chmod 777 rv32im.sh
 
 </details>
 
+**Logic gates**
 
+blob:https://web.whatsapp.com/bd9b3c6d-a6d5-4c50-aa2e-d0f8ca0be25c
 
+**Combinational Circuit**
 
+**Adder**
 
+**Boolean Operators**
 
+# Day-3 Digital Logic with TL-verilog and Marker chip
+
+<details>
+ <summary>Introduction TO logic gates</summary>
+
+ 
+	
 # RTL design using Verilog with SKY130 Technology
 
 <details>
