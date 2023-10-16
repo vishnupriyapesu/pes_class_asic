@@ -442,20 +442,24 @@ chmod 777 rv32im.sh
  
 **Logic gates**
 
-![Screenshot from 2023-08-24 15-31-45](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/95d4ade6-de02-4719-9950-7adb1303e9ac)
+![Untitled20](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/2fcfc404-57ac-4c7f-a17e-fa6cd2510064)
+
 
 
 **Combinational Circuit**
 
-![23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1b34ee8d-b414-4b19-8d47-045586b0c012)
+![21](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/1465b70e-5607-467e-b6bf-30f6de406f96)
+
 
 **Adder**
 
-![22](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/a2188a8b-58ad-448c-adfe-da6314fba542)
+![22](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/6f1026c3-22d0-4da9-9c2d-92e1390ecb87)
+
 
 **Boolean Operators**
 
-![21](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/40ceb7de-5dd5-4918-a97f-554eecaadced)
+![23](https://github.com/vishnupriyapesu/pes_class_asic/assets/142419649/63dfca31-2e8f-4ea0-af8b-91c5d305f664)
+
 
 </details>
 	
