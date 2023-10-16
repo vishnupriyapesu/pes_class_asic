@@ -46,7 +46,7 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 </details>
 
  
-# Introduction to RISC-V ISA and GNU complier toolchain
+# Day-1 Introduction to RISC-V ISA and GNU complier toolchain
 
 
  <details>
@@ -436,10 +436,12 @@ chmod 777 rv32im.sh
 
 
 
+
+
+# RTL design using Verilog with SKY130 Technology
+
 <details>
 <summary> RTL design using Verilog with SKY130 Technology  </summary>
-
-**RTL design using Verilog with SKY130 Technology**
 
 - [Installation](#Installation)
 
@@ -457,7 +459,7 @@ chmod 777 rv32im.sh
 
 
 
-## Installation
+# Installation
 
 
 </details>	
